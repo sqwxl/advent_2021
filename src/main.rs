@@ -23,6 +23,8 @@ fn main() {
         "inputs/02B" => solutions::solution_02::b(lines),
         "inputs/03A" => solutions::solution_03::a(lines),
         "inputs/03B" => solutions::solution_03::b(lines),
+        "inputs/04A" => solutions::solution_04::a(lines),
+        "inputs/04B" => solutions::solution_04::b(lines),
         &_ => println!("input not recognized. use 'inputs/01A'"),
     }
 }
