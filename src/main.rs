@@ -14,6 +14,8 @@ fn main() {
     let input = fs::read(&file).unwrap();
     let data = String::from_utf8(input).unwrap();
     let lines = data.lines();
+    
+    let input = fs::read_to_string(file).unwrap();
 
     println!("{}", puzzle);
     match puzzle.as_str() {
@@ -29,6 +31,12 @@ fn main() {
         "inputs/05B" => solutions::solution_05::b(lines),
         "inputs/06A" => solutions::solution_06::a(lines),
         "inputs/06B" => solutions::solution_06::b(lines),
+        "inputs/07A" => solutions::solution_07::a(lines),
+        "inputs/07B" => solutions::solution_07::b(lines),
+        "inputs/08A" => solutions::solution_08::a(lines),
+        "inputs/08B" => solutions::solution_08::b(lines),
+        "inputs/09A" => solutions::solution_09::a(&input),
+        "inputs/09B" => solutions::solution_09::b(&input),
         _ => println!("input not recognized. use 'inputs/01A'"),
     }
 }

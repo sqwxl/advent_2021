@@ -1,13 +1,14 @@
 use crate::input;
 
 pub fn a(lines: input::InputLines) {
-    let mut fish = get_fish(lines);
+    let fish = get_fish(lines);
 
-    for _ in 0..80 {
-        generation(&mut fish);
+    let mut fishes = 0;
+    for f in fish {
+        fishes += descendants(f, 80)
     }
 
-    println!("{}", fish.len());
+    println!("{}", fishes);
 }
 
 pub fn b(lines: input::InputLines) {
@@ -48,18 +49,5 @@ fn descendants(t: u32, gen: u32) -> u64 {
         (false, _) => 1,
         (true, false) => descendants(6, gen - 1) + descendants(8, gen - 1),
         (true, true) => descendants(t - 1, gen - 1),
-    }
-}
-
-fn generation(fish: &mut Vec<u32>) {
-    let len = fish.len();
-
-    for i in 0..len {
-        if fish[i] == 0 {
-            fish[i] = 6;
-            fish.push(8)
-        } else {
-            fish[i] -= 1;
-        }
     }
 }
