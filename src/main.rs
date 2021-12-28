@@ -37,6 +37,8 @@ fn main() {
         "inputs/08B" => solutions::solution_08::b(lines),
         "inputs/09A" => solutions::solution_09::a(&input),
         "inputs/09B" => solutions::solution_09::b(&input),
+        "inputs/10A" => solutions::solution_10::a(&input),
+        "inputs/10B" => solutions::solution_10::b(&input),
         _ => println!("input not recognized. use 'inputs/01A'"),
     }
 }

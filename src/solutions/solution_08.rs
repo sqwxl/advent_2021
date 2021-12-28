@@ -2,6 +2,8 @@ use std::collections::HashMap;
 
 use crate::input::InputLines;
 
+#[allow(dead_code)]
+
 const ONE: usize = 2;
 const FOUR: usize = 4;
 const SEVEN: usize = 3;
