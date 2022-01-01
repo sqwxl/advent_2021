@@ -61,6 +61,7 @@ CheckDepInfo	target/debug/.fingerprint/advent_2021-e272361c18cf75c5/bin-advent_2
 CheckDepInfo	target/debug/.fingerprint/advent_2021-e5cc0dacd63239cb/bin-advent_2021.json	/^{"rustc":7409016768189200941,"features":"[]","target":3582900816897624388,"profile":730914168686/;"	o	object:local.0
 CheckDepInfo	target/debug/.fingerprint/advent_2021-fc7cda1cecf81d05/test-bin-advent_2021.json	/^{"rustc":10026429466883849012,"features":"[]","target":9241109471690605214,"profile":64153482883/;"	o	object:local.0
 Corrupt	src/solutions/solution_10.rs	/^    Corrupt(u32),$/;"	e	enum:LineStatus
+Fold	src/solutions/solution_13.rs	/^enum Fold {$/;"	g
 Grid	src/solutions/solution_09.rs	/^impl Grid {$/;"	c
 Grid	src/solutions/solution_09.rs	/^struct Grid {$/;"	s
 Grid	src/solutions/solution_11.rs	/^impl Grid {$/;"	c
@@ -68,6 +69,7 @@ Grid	src/solutions/solution_11.rs	/^struct Grid {$/;"	s
 Incomplete	src/solutions/solution_10.rs	/^    Incomplete(u64),$/;"	e	enum:LineStatus
 InputLines	src/main.rs	/^    pub type InputLines<'a> = std::str::Lines<'a>;$/;"	t	module:input
 Instruction	src/solutions/solution_02.rs	/^type Instruction<'a> = (&'a str, i32);$/;"	t
+Instructions	src/solutions/solution_13.rs	/^type Instructions = Vec<Fold>;$/;"	t
 Levels	src/solutions/solution_11.rs	/^type Levels = [u8; W * H];$/;"	t
 Line	src/solutions/solution_05.rs	/^struct Line {$/;"	s
 LineStatus	src/solutions/solution_10.rs	/^enum LineStatus {$/;"	g
@@ -76,11 +78,15 @@ Network	src/solutions/solution_12.rs	/^impl<'a> Network<'a> {$/;"	c
 Network	src/solutions/solution_12.rs	/^struct Network<'a> {$/;"	s
 Nums	src/solutions/solution_04.rs	/^type Nums<'a> = Vec<&'a str>;$/;"	t
 Octopus	src/solutions/solution_11.rs	/^struct Octopus {$/;"	s
+Paper	src/solutions/solution_13.rs	/^impl Paper {$/;"	c
+Paper	src/solutions/solution_13.rs	/^struct Paper {$/;"	s
 PathRule	src/solutions/solution_12.rs	/^enum PathRule {$/;"	g
 Point	src/solutions/solution_09.rs	/^struct Point {$/;"	s
 Single	src/solutions/solution_12.rs	/^    Single,$/;"	e	enum:PathRule
 Size	src/solutions/solution_12.rs	/^enum Size {$/;"	g
 Small	src/solutions/solution_12.rs	/^    Small,$/;"	e	enum:Size
+X	src/solutions/solution_13.rs	/^    X(u32),$/;"	e	enum:Fold
+Y	src/solutions/solution_13.rs	/^    Y(u32),$/;"	e	enum:Fold
 a	src/solutions/solution_01.rs	/^pub fn a(mut lines: std::str::Lines<'_>) {$/;"	f
 a	src/solutions/solution_02.rs	/^pub fn a(lines: input::InputLines) {$/;"	f
 a	src/solutions/solution_03.rs	/^pub fn a(lines: input::InputLines) {$/;"	f
@@ -93,7 +99,7 @@ a	src/solutions/solution_09.rs	/^pub fn a(input: &str) {$/;"	f
 a	src/solutions/solution_10.rs	/^pub fn a(input: &str) {$/;"	f
 a	src/solutions/solution_11.rs	/^pub fn a(input: &str) {$/;"	f
 a	src/solutions/solution_12.rs	/^pub fn a(input: &str) {$/;"	f
-a	src/solutions/solution_13.rs	/^pub fn a(input: &str) {}$/;"	f
+a	src/solutions/solution_13.rs	/^pub fn a(input: &str) {$/;"	f
 add_or_get	src/solutions/solution_12.rs	/^    fn add_or_get(&mut self, name: &'a str) -> usize {$/;"	P	implementation:Network
 at	src/solutions/solution_09.rs	/^    fn at(&self, point: Point) -> Option<u8> {$/;"	P	implementation:Grid
 at	src/solutions/solution_11.rs	/^    fn at(&self, point: Octopus) -> Option<u8> {$/;"	P	implementation:Grid
@@ -109,7 +115,7 @@ b	src/solutions/solution_09.rs	/^pub fn b(input: &str) {$/;"	f
 b	src/solutions/solution_10.rs	/^pub fn b(input: &str) {$/;"	f
 b	src/solutions/solution_11.rs	/^pub fn b(input: &str) {$/;"	f
 b	src/solutions/solution_12.rs	/^pub fn b(input: &str) {$/;"	f
-b	src/solutions/solution_13.rs	/^pub fn b(input: &str) {}$/;"	f
+b	src/solutions/solution_13.rs	/^pub fn b(input: &str) {$/;"	f
 bassin	src/solutions/solution_09.rs	/^fn bassin(grid: &Grid, point: Point) -> Vec<Point> {$/;"	f
 caves	src/solutions/solution_12.rs	/^    caves: Vec<Cave>,$/;"	m	struct:Network
 code	target/.rustc_info.json	/^{"rustc_fingerprint":13134320078544071847,"outputs":{"17598535894874457435":{"success":true,"sta/;"	n	object:outputs.15537503139010883884
@@ -228,10 +234,14 @@ features	target/debug/.fingerprint/advent_2021-e5cc0dacd63239cb/bin-advent_2021.
 features	target/debug/.fingerprint/advent_2021-fc7cda1cecf81d05/test-bin-advent_2021.json	/^{"rustc":10026429466883849012,"features":"[]","target":9241109471690605214,"profile":64153482883/;"	s
 find_paths	src/solutions/solution_12.rs	/^    fn find_paths(&self, count: &mut u32, path: Vec<usize>, rule: &PathRule, revisited_once: boo/;"	P	implementation:Network
 flash	src/solutions/solution_11.rs	/^    fn flash(&mut self, counter: &mut u32) -> Vec<Octopus> {$/;"	P	implementation:Grid
+fold	src/solutions/solution_13.rs	/^    fn fold(&mut self, fold: &Fold) {$/;"	P	implementation:Paper
+from_coords	src/solutions/solution_13.rs	/^    fn from_coords(coords: &str) -> Self {$/;"	P	implementation:Paper
+from_str	src/solutions/solution_13.rs	/^fn from_str(s: &str) -> Instructions {$/;"	f
 fuel	src/solutions/solution_07.rs	/^fn fuel(n: i32) -> i32 {$/;"	f
 get_fish	src/solutions/solution_06.rs	/^fn get_fish(lines: input::InputLines) -> Vec<u32> {$/;"	f
 get_low_points	src/solutions/solution_09.rs	/^fn get_low_points(grid: &Grid) -> Vec<Point> {$/;"	f
 height	src/solutions/solution_09.rs	/^    height: i32,$/;"	m	struct:Grid
+height	src/solutions/solution_13.rs	/^    height: u32,$/;"	m	struct:Paper
 horizontals	src/solutions/solution_05.rs	/^fn horizontals(lines: &Vec<Line>) -> Vec<Line> {$/;"	f
 index_map	src/solutions/solution_12.rs	/^    index_map: HashMap<&'a str, usize>,$/;"	m	struct:Network
 input	src/main.rs	/^pub mod input {$/;"	n
@@ -295,6 +305,7 @@ parse_input	src/solutions/solution_07.rs	/^fn parse_input(lines: &input::InputLi
 parse_input	src/solutions/solution_08.rs	/^fn parse_input(lines: InputLines) -> (Vec<Vec<&str>>, Vec<Vec<&str>>) {$/;"	f
 parse_input	src/solutions/solution_11.rs	/^fn parse_input(input: &str) -> Grid {$/;"	f
 parse_input	src/solutions/solution_12.rs	/^fn parse_input(input: &str) -> Network {$/;"	f
+parse_input	src/solutions/solution_13.rs	/^fn parse_input(input: &str) -> (Paper, Instructions) {$/;"	f
 parse_instructions	src/solutions/solution_02.rs	/^fn parse_instructions(lines: input::InputLines) -> Vec<Instruction> {$/;"	f
 path	target/debug/.fingerprint/AoC_2021-1848f3e98b89b3d1/test-bin-AoC_2021.json	/^{"rustc":10077412179023509715,"features":"[]","target":11103553238831657604,"profile":6415348288/;"	n
 path	target/debug/.fingerprint/AoC_2021-18e75480cb722bd1/bin-AoC_2021.json	/^{"rustc":10077412179023509715,"features":"[]","target":11103553238831657604,"profile":1144844575/;"	n
@@ -318,6 +329,7 @@ path	target/debug/.fingerprint/advent_2021-e272361c18cf75c5/bin-advent_2021.json
 path	target/debug/.fingerprint/advent_2021-e5cc0dacd63239cb/bin-advent_2021.json	/^{"rustc":7409016768189200941,"features":"[]","target":3582900816897624388,"profile":730914168686/;"	n
 path	target/debug/.fingerprint/advent_2021-fc7cda1cecf81d05/test-bin-advent_2021.json	/^{"rustc":10026429466883849012,"features":"[]","target":9241109471690605214,"profile":64153482883/;"	n
 paths	src/solutions/solution_12.rs	/^    fn paths(&self, rule: PathRule) -> u32 {$/;"	P	implementation:Network
+print	src/solutions/solution_13.rs	/^    fn print(&self) {$/;"	P	implementation:Paper
 print_board	src/solutions/solution_04.rs	/^fn print_board(board: &Vec<Vec<&str>>) {$/;"	f
 profile	target/debug/.fingerprint/AoC_2021-1848f3e98b89b3d1/test-bin-AoC_2021.json	/^{"rustc":10077412179023509715,"features":"[]","target":11103553238831657604,"profile":6415348288/;"	n
 profile	target/debug/.fingerprint/AoC_2021-18e75480cb722bd1/bin-AoC_2021.json	/^{"rustc":10077412179023509715,"features":"[]","target":11103553238831657604,"profile":1144844575/;"	n
@@ -441,14 +453,17 @@ target	target/debug/.fingerprint/advent_2021-e1ec49e7d795f65d/test-bin-advent_20
 target	target/debug/.fingerprint/advent_2021-e272361c18cf75c5/bin-advent_2021.json	/^{"rustc":10026429466883849012,"features":"[]","target":9241109471690605214,"profile":11448445750/;"	n
 target	target/debug/.fingerprint/advent_2021-e5cc0dacd63239cb/bin-advent_2021.json	/^{"rustc":7409016768189200941,"features":"[]","target":3582900816897624388,"profile":730914168686/;"	n
 target	target/debug/.fingerprint/advent_2021-fc7cda1cecf81d05/test-bin-advent_2021.json	/^{"rustc":10026429466883849012,"features":"[]","target":9241109471690605214,"profile":64153482883/;"	n
+unique	src/solutions/solution_13.rs	/^    fn unique(&self, v: (u32, u32)) -> Option<(u32, u32)> {$/;"	P	implementation:Paper
 validate_line	src/solutions/solution_10.rs	/^fn validate_line(line: &str) -> LineStatus {$/;"	f
 validate_pair	src/solutions/solution_10.rs	/^fn validate_pair(pair: (char, char)) -> bool {$/;"	f
 values	src/solutions/solution_09.rs	/^    values: Vec<u8>,$/;"	m	struct:Grid
+values	src/solutions/solution_13.rs	/^    values: Vec<(u32, u32)>,$/;"	m	struct:Paper
 verticals	src/solutions/solution_05.rs	/^fn verticals(lines: &Vec<Line>) -> Vec<Line> {$/;"	f
 walk_d	src/solutions/solution_05.rs	/^fn walk_d(lines: &Vec<Line>, board: &mut Vec<Vec<u32>>) {$/;"	f
 walk_h	src/solutions/solution_05.rs	/^fn walk_h(lines: &Vec<Line>, board: &mut Vec<Vec<u32>>) {$/;"	f
 walk_v	src/solutions/solution_05.rs	/^fn walk_v(lines: &Vec<Line>, board: &mut Vec<Vec<u32>>) {$/;"	f
 width	src/solutions/solution_09.rs	/^    width: i32,$/;"	m	struct:Grid
+width	src/solutions/solution_13.rs	/^    width: u32,$/;"	m	struct:Paper
 wins	src/solutions/solution_04.rs	/^fn wins(board: &Vec<Vec<&str>>) -> bool {$/;"	f
 x	src/solutions/solution_09.rs	/^    x: i32,$/;"	m	struct:Point
 x	src/solutions/solution_11.rs	/^    x: i8,$/;"	m	struct:Octopus
