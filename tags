@@ -1,0 +1,460 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_EXCMD	mixed	/number, pattern, mixed, or combineV2/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
+!_TAG_PROC_CWD	/home/nilueps/Sync/advent_2021/	//
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	5.9.0	/p5.9.20210905.0/
+0	target/debug/.fingerprint/AoC_2021-1848f3e98b89b3d1/test-bin-AoC_2021.json	/^{"rustc":10077412179023509715,"features":"[]","target":11103553238831657604,"profile":6415348288/;"	o	array:local
+0	target/debug/.fingerprint/AoC_2021-18e75480cb722bd1/bin-AoC_2021.json	/^{"rustc":10077412179023509715,"features":"[]","target":11103553238831657604,"profile":1144844575/;"	o	array:local
+0	target/debug/.fingerprint/AoC_2021-375d8eb21ee48a46/test-bin-AoC_2021.json	/^{"rustc":10077412179023509715,"features":"[]","target":11103553238831657604,"profile":6415348288/;"	o	array:local
+0	target/debug/.fingerprint/AoC_2021-52ef7cbd990ea619/bin-AoC_2021.json	/^{"rustc":10077412179023509715,"features":"[]","target":11103553238831657604,"profile":1144844575/;"	o	array:local
+0	target/debug/.fingerprint/AoC_2021-5ed48ffd3d41022b/bin-AoC_2021.json	/^{"rustc":8020860686714880400,"features":"[]","target":9527172775541262777,"profile":730914168686/;"	o	array:local
+0	target/debug/.fingerprint/AoC_2021-8cef22a3156f1720/test-bin-AoC_2021.json	/^{"rustc":8020860686714880400,"features":"[]","target":9527172775541262777,"profile":102163307545/;"	o	array:local
+0	target/debug/.fingerprint/AoC_2021-c6a7c70b0686ab51/test-bin-AoC_2021.json	/^{"rustc":8020860686714880400,"features":"[]","target":9527172775541262777,"profile":102163307545/;"	o	array:local
+0	target/debug/.fingerprint/AoC_2021-d02448b26699337a/bin-AoC_2021.json	/^{"rustc":8020860686714880400,"features":"[]","target":9527172775541262777,"profile":730914168686/;"	o	array:local
+0	target/debug/.fingerprint/advent_2021-1a51593105351809/bin-advent_2021.json	/^{"rustc":10026429466883849012,"features":"[]","target":5242205794972051748,"profile":18108590124/;"	o	array:local
+0	target/debug/.fingerprint/advent_2021-1acb23e191f65a9f/bin-advent_2021.json	/^{"rustc":7409016768189200941,"features":"[]","target":3582900816897624388,"profile":925101365624/;"	o	array:local
+0	target/debug/.fingerprint/advent_2021-34f7fd87a4480260/bin-advent_2021.json	/^{"rustc":8020860686714880400,"features":"[]","target":3582900816897624388,"profile":925101365624/;"	o	array:local
+0	target/debug/.fingerprint/advent_2021-3e8de721471dd047/bin-advent_2021.json	/^{"rustc":10026429466883849012,"features":"[]","target":9241109471690605214,"profile":11448445750/;"	o	array:local
+0	target/debug/.fingerprint/advent_2021-627f6773619504d6/bin-advent_2021.json	/^{"rustc":8020860686714880400,"features":"[]","target":14971729297076664852,"profile":73091416868/;"	o	array:local
+0	target/debug/.fingerprint/advent_2021-6e49952f92e9d0e6/bin-advent_2021.json	/^{"rustc":7409016768189200941,"features":"[]","target":3582900816897624388,"profile":730914168686/;"	o	array:local
+0	target/debug/.fingerprint/advent_2021-9f5090350aba620d/test-bin-advent_2021.json	/^{"rustc":7409016768189200941,"features":"[]","target":3582900816897624388,"profile":102163307545/;"	o	array:local
+0	target/debug/.fingerprint/advent_2021-acb9cc02b1c5ecc4/test-bin-advent_2021.json	/^{"rustc":8020860686714880400,"features":"[]","target":14971729297076664852,"profile":10216330754/;"	o	array:local
+0	target/debug/.fingerprint/advent_2021-ad577bef711315b0/test-bin-advent_2021.json	/^{"rustc":10026429466883849012,"features":"[]","target":5242205794972051748,"profile":64153482883/;"	o	array:local
+0	target/debug/.fingerprint/advent_2021-e1ec49e7d795f65d/test-bin-advent_2021.json	/^{"rustc":7409016768189200941,"features":"[]","target":3582900816897624388,"profile":102163307545/;"	o	array:local
+0	target/debug/.fingerprint/advent_2021-e272361c18cf75c5/bin-advent_2021.json	/^{"rustc":10026429466883849012,"features":"[]","target":9241109471690605214,"profile":11448445750/;"	o	array:local
+0	target/debug/.fingerprint/advent_2021-e5cc0dacd63239cb/bin-advent_2021.json	/^{"rustc":7409016768189200941,"features":"[]","target":3582900816897624388,"profile":730914168686/;"	o	array:local
+0	target/debug/.fingerprint/advent_2021-fc7cda1cecf81d05/test-bin-advent_2021.json	/^{"rustc":10026429466883849012,"features":"[]","target":9241109471690605214,"profile":64153482883/;"	o	array:local
+15537503139010883884	target/.rustc_info.json	/^{"rustc_fingerprint":13134320078544071847,"outputs":{"17598535894874457435":{"success":true,"sta/;"	o	object:outputs
+17598535894874457435	target/.rustc_info.json	/^{"rustc_fingerprint":13134320078544071847,"outputs":{"17598535894874457435":{"success":true,"sta/;"	o	object:outputs
+2797684049618456168	target/.rustc_info.json	/^{"rustc_fingerprint":13134320078544071847,"outputs":{"17598535894874457435":{"success":true,"sta/;"	o	object:outputs
+931469667778813386	target/.rustc_info.json	/^{"rustc_fingerprint":13134320078544071847,"outputs":{"17598535894874457435":{"success":true,"sta/;"	o	object:outputs
+Big	src/solutions/solution_12.rs	/^    Big,$/;"	e	enum:Size
+Board	src/solutions/solution_04.rs	/^type Board<'a> = Vec<Vec<&'a str>>;$/;"	t
+Boards	src/solutions/solution_04.rs	/^type Boards<'a> = Vec<Board<'a>>;$/;"	t
+Cave	src/solutions/solution_12.rs	/^impl Cave {$/;"	c
+Cave	src/solutions/solution_12.rs	/^struct Cave {$/;"	s
+CheckDepInfo	target/debug/.fingerprint/AoC_2021-1848f3e98b89b3d1/test-bin-AoC_2021.json	/^{"rustc":10077412179023509715,"features":"[]","target":11103553238831657604,"profile":6415348288/;"	o	object:local.0
+CheckDepInfo	target/debug/.fingerprint/AoC_2021-18e75480cb722bd1/bin-AoC_2021.json	/^{"rustc":10077412179023509715,"features":"[]","target":11103553238831657604,"profile":1144844575/;"	o	object:local.0
+CheckDepInfo	target/debug/.fingerprint/AoC_2021-375d8eb21ee48a46/test-bin-AoC_2021.json	/^{"rustc":10077412179023509715,"features":"[]","target":11103553238831657604,"profile":6415348288/;"	o	object:local.0
+CheckDepInfo	target/debug/.fingerprint/AoC_2021-52ef7cbd990ea619/bin-AoC_2021.json	/^{"rustc":10077412179023509715,"features":"[]","target":11103553238831657604,"profile":1144844575/;"	o	object:local.0
+CheckDepInfo	target/debug/.fingerprint/AoC_2021-5ed48ffd3d41022b/bin-AoC_2021.json	/^{"rustc":8020860686714880400,"features":"[]","target":9527172775541262777,"profile":730914168686/;"	o	object:local.0
+CheckDepInfo	target/debug/.fingerprint/AoC_2021-8cef22a3156f1720/test-bin-AoC_2021.json	/^{"rustc":8020860686714880400,"features":"[]","target":9527172775541262777,"profile":102163307545/;"	o	object:local.0
+CheckDepInfo	target/debug/.fingerprint/AoC_2021-c6a7c70b0686ab51/test-bin-AoC_2021.json	/^{"rustc":8020860686714880400,"features":"[]","target":9527172775541262777,"profile":102163307545/;"	o	object:local.0
+CheckDepInfo	target/debug/.fingerprint/AoC_2021-d02448b26699337a/bin-AoC_2021.json	/^{"rustc":8020860686714880400,"features":"[]","target":9527172775541262777,"profile":730914168686/;"	o	object:local.0
+CheckDepInfo	target/debug/.fingerprint/advent_2021-1a51593105351809/bin-advent_2021.json	/^{"rustc":10026429466883849012,"features":"[]","target":5242205794972051748,"profile":18108590124/;"	o	object:local.0
+CheckDepInfo	target/debug/.fingerprint/advent_2021-1acb23e191f65a9f/bin-advent_2021.json	/^{"rustc":7409016768189200941,"features":"[]","target":3582900816897624388,"profile":925101365624/;"	o	object:local.0
+CheckDepInfo	target/debug/.fingerprint/advent_2021-34f7fd87a4480260/bin-advent_2021.json	/^{"rustc":8020860686714880400,"features":"[]","target":3582900816897624388,"profile":925101365624/;"	o	object:local.0
+CheckDepInfo	target/debug/.fingerprint/advent_2021-3e8de721471dd047/bin-advent_2021.json	/^{"rustc":10026429466883849012,"features":"[]","target":9241109471690605214,"profile":11448445750/;"	o	object:local.0
+CheckDepInfo	target/debug/.fingerprint/advent_2021-627f6773619504d6/bin-advent_2021.json	/^{"rustc":8020860686714880400,"features":"[]","target":14971729297076664852,"profile":73091416868/;"	o	object:local.0
+CheckDepInfo	target/debug/.fingerprint/advent_2021-6e49952f92e9d0e6/bin-advent_2021.json	/^{"rustc":7409016768189200941,"features":"[]","target":3582900816897624388,"profile":730914168686/;"	o	object:local.0
+CheckDepInfo	target/debug/.fingerprint/advent_2021-9f5090350aba620d/test-bin-advent_2021.json	/^{"rustc":7409016768189200941,"features":"[]","target":3582900816897624388,"profile":102163307545/;"	o	object:local.0
+CheckDepInfo	target/debug/.fingerprint/advent_2021-acb9cc02b1c5ecc4/test-bin-advent_2021.json	/^{"rustc":8020860686714880400,"features":"[]","target":14971729297076664852,"profile":10216330754/;"	o	object:local.0
+CheckDepInfo	target/debug/.fingerprint/advent_2021-ad577bef711315b0/test-bin-advent_2021.json	/^{"rustc":10026429466883849012,"features":"[]","target":5242205794972051748,"profile":64153482883/;"	o	object:local.0
+CheckDepInfo	target/debug/.fingerprint/advent_2021-e1ec49e7d795f65d/test-bin-advent_2021.json	/^{"rustc":7409016768189200941,"features":"[]","target":3582900816897624388,"profile":102163307545/;"	o	object:local.0
+CheckDepInfo	target/debug/.fingerprint/advent_2021-e272361c18cf75c5/bin-advent_2021.json	/^{"rustc":10026429466883849012,"features":"[]","target":9241109471690605214,"profile":11448445750/;"	o	object:local.0
+CheckDepInfo	target/debug/.fingerprint/advent_2021-e5cc0dacd63239cb/bin-advent_2021.json	/^{"rustc":7409016768189200941,"features":"[]","target":3582900816897624388,"profile":730914168686/;"	o	object:local.0
+CheckDepInfo	target/debug/.fingerprint/advent_2021-fc7cda1cecf81d05/test-bin-advent_2021.json	/^{"rustc":10026429466883849012,"features":"[]","target":9241109471690605214,"profile":64153482883/;"	o	object:local.0
+Corrupt	src/solutions/solution_10.rs	/^    Corrupt(u32),$/;"	e	enum:LineStatus
+Grid	src/solutions/solution_09.rs	/^impl Grid {$/;"	c
+Grid	src/solutions/solution_09.rs	/^struct Grid {$/;"	s
+Grid	src/solutions/solution_11.rs	/^impl Grid {$/;"	c
+Grid	src/solutions/solution_11.rs	/^struct Grid {$/;"	s
+Incomplete	src/solutions/solution_10.rs	/^    Incomplete(u64),$/;"	e	enum:LineStatus
+InputLines	src/main.rs	/^    pub type InputLines<'a> = std::str::Lines<'a>;$/;"	t	module:input
+Instruction	src/solutions/solution_02.rs	/^type Instruction<'a> = (&'a str, i32);$/;"	t
+Levels	src/solutions/solution_11.rs	/^type Levels = [u8; W * H];$/;"	t
+Line	src/solutions/solution_05.rs	/^struct Line {$/;"	s
+LineStatus	src/solutions/solution_10.rs	/^enum LineStatus {$/;"	g
+Multiple	src/solutions/solution_12.rs	/^    Multiple,$/;"	e	enum:PathRule
+Network	src/solutions/solution_12.rs	/^impl<'a> Network<'a> {$/;"	c
+Network	src/solutions/solution_12.rs	/^struct Network<'a> {$/;"	s
+Nums	src/solutions/solution_04.rs	/^type Nums<'a> = Vec<&'a str>;$/;"	t
+Octopus	src/solutions/solution_11.rs	/^struct Octopus {$/;"	s
+PathRule	src/solutions/solution_12.rs	/^enum PathRule {$/;"	g
+Point	src/solutions/solution_09.rs	/^struct Point {$/;"	s
+Single	src/solutions/solution_12.rs	/^    Single,$/;"	e	enum:PathRule
+Size	src/solutions/solution_12.rs	/^enum Size {$/;"	g
+Small	src/solutions/solution_12.rs	/^    Small,$/;"	e	enum:Size
+a	src/solutions/solution_01.rs	/^pub fn a(mut lines: std::str::Lines<'_>) {$/;"	f
+a	src/solutions/solution_02.rs	/^pub fn a(lines: input::InputLines) {$/;"	f
+a	src/solutions/solution_03.rs	/^pub fn a(lines: input::InputLines) {$/;"	f
+a	src/solutions/solution_04.rs	/^pub fn a(lines: input::InputLines) {$/;"	f
+a	src/solutions/solution_05.rs	/^pub fn a(lines: input::InputLines) {$/;"	f
+a	src/solutions/solution_06.rs	/^pub fn a(lines: input::InputLines) {$/;"	f
+a	src/solutions/solution_07.rs	/^pub fn a(lines: input::InputLines) {$/;"	f
+a	src/solutions/solution_08.rs	/^pub fn a(lines: InputLines) {$/;"	f
+a	src/solutions/solution_09.rs	/^pub fn a(input: &str) {$/;"	f
+a	src/solutions/solution_10.rs	/^pub fn a(input: &str) {$/;"	f
+a	src/solutions/solution_11.rs	/^pub fn a(input: &str) {$/;"	f
+a	src/solutions/solution_12.rs	/^pub fn a(input: &str) {$/;"	f
+a	src/solutions/solution_13.rs	/^pub fn a(input: &str) {}$/;"	f
+add_or_get	src/solutions/solution_12.rs	/^    fn add_or_get(&mut self, name: &'a str) -> usize {$/;"	P	implementation:Network
+at	src/solutions/solution_09.rs	/^    fn at(&self, point: Point) -> Option<u8> {$/;"	P	implementation:Grid
+at	src/solutions/solution_11.rs	/^    fn at(&self, point: Octopus) -> Option<u8> {$/;"	P	implementation:Grid
+b	src/solutions/solution_01.rs	/^pub fn b(lines: std::str::Lines<'_>) {$/;"	f
+b	src/solutions/solution_02.rs	/^pub fn b(lines: input::InputLines) {$/;"	f
+b	src/solutions/solution_03.rs	/^pub fn b(lines: input::InputLines) {$/;"	f
+b	src/solutions/solution_04.rs	/^pub fn b(lines: input::InputLines) {$/;"	f
+b	src/solutions/solution_05.rs	/^pub fn b(lines: input::InputLines) {$/;"	f
+b	src/solutions/solution_06.rs	/^pub fn b(lines: input::InputLines) {$/;"	f
+b	src/solutions/solution_07.rs	/^pub fn b(lines: input::InputLines) {$/;"	f
+b	src/solutions/solution_08.rs	/^pub fn b(lines: InputLines) {$/;"	f
+b	src/solutions/solution_09.rs	/^pub fn b(input: &str) {$/;"	f
+b	src/solutions/solution_10.rs	/^pub fn b(input: &str) {$/;"	f
+b	src/solutions/solution_11.rs	/^pub fn b(input: &str) {$/;"	f
+b	src/solutions/solution_12.rs	/^pub fn b(input: &str) {$/;"	f
+b	src/solutions/solution_13.rs	/^pub fn b(input: &str) {}$/;"	f
+bassin	src/solutions/solution_09.rs	/^fn bassin(grid: &Grid, point: Point) -> Vec<Point> {$/;"	f
+caves	src/solutions/solution_12.rs	/^    caves: Vec<Cave>,$/;"	m	struct:Network
+code	target/.rustc_info.json	/^{"rustc_fingerprint":13134320078544071847,"outputs":{"17598535894874457435":{"success":true,"sta/;"	n	object:outputs.15537503139010883884
+code	target/.rustc_info.json	/^{"rustc_fingerprint":13134320078544071847,"outputs":{"17598535894874457435":{"success":true,"sta/;"	n	object:outputs.17598535894874457435
+code	target/.rustc_info.json	/^{"rustc_fingerprint":13134320078544071847,"outputs":{"17598535894874457435":{"success":true,"sta/;"	n	object:outputs.2797684049618456168
+code	target/.rustc_info.json	/^{"rustc_fingerprint":13134320078544071847,"outputs":{"17598535894874457435":{"success":true,"sta/;"	n	object:outputs.931469667778813386
+compile_kind	target/debug/.fingerprint/AoC_2021-1848f3e98b89b3d1/test-bin-AoC_2021.json	/^{"rustc":10077412179023509715,"features":"[]","target":11103553238831657604,"profile":6415348288/;"	n
+compile_kind	target/debug/.fingerprint/AoC_2021-18e75480cb722bd1/bin-AoC_2021.json	/^{"rustc":10077412179023509715,"features":"[]","target":11103553238831657604,"profile":1144844575/;"	n
+compile_kind	target/debug/.fingerprint/AoC_2021-375d8eb21ee48a46/test-bin-AoC_2021.json	/^{"rustc":10077412179023509715,"features":"[]","target":11103553238831657604,"profile":6415348288/;"	n
+compile_kind	target/debug/.fingerprint/AoC_2021-52ef7cbd990ea619/bin-AoC_2021.json	/^{"rustc":10077412179023509715,"features":"[]","target":11103553238831657604,"profile":1144844575/;"	n
+compile_kind	target/debug/.fingerprint/AoC_2021-5ed48ffd3d41022b/bin-AoC_2021.json	/^{"rustc":8020860686714880400,"features":"[]","target":9527172775541262777,"profile":730914168686/;"	n
+compile_kind	target/debug/.fingerprint/AoC_2021-8cef22a3156f1720/test-bin-AoC_2021.json	/^{"rustc":8020860686714880400,"features":"[]","target":9527172775541262777,"profile":102163307545/;"	n
+compile_kind	target/debug/.fingerprint/AoC_2021-c6a7c70b0686ab51/test-bin-AoC_2021.json	/^{"rustc":8020860686714880400,"features":"[]","target":9527172775541262777,"profile":102163307545/;"	n
+compile_kind	target/debug/.fingerprint/AoC_2021-d02448b26699337a/bin-AoC_2021.json	/^{"rustc":8020860686714880400,"features":"[]","target":9527172775541262777,"profile":730914168686/;"	n
+compile_kind	target/debug/.fingerprint/advent_2021-1a51593105351809/bin-advent_2021.json	/^{"rustc":10026429466883849012,"features":"[]","target":5242205794972051748,"profile":18108590124/;"	n
+compile_kind	target/debug/.fingerprint/advent_2021-1acb23e191f65a9f/bin-advent_2021.json	/^{"rustc":7409016768189200941,"features":"[]","target":3582900816897624388,"profile":925101365624/;"	n
+compile_kind	target/debug/.fingerprint/advent_2021-34f7fd87a4480260/bin-advent_2021.json	/^{"rustc":8020860686714880400,"features":"[]","target":3582900816897624388,"profile":925101365624/;"	n
+compile_kind	target/debug/.fingerprint/advent_2021-3e8de721471dd047/bin-advent_2021.json	/^{"rustc":10026429466883849012,"features":"[]","target":9241109471690605214,"profile":11448445750/;"	n
+compile_kind	target/debug/.fingerprint/advent_2021-627f6773619504d6/bin-advent_2021.json	/^{"rustc":8020860686714880400,"features":"[]","target":14971729297076664852,"profile":73091416868/;"	n
+compile_kind	target/debug/.fingerprint/advent_2021-6e49952f92e9d0e6/bin-advent_2021.json	/^{"rustc":7409016768189200941,"features":"[]","target":3582900816897624388,"profile":730914168686/;"	n
+compile_kind	target/debug/.fingerprint/advent_2021-9f5090350aba620d/test-bin-advent_2021.json	/^{"rustc":7409016768189200941,"features":"[]","target":3582900816897624388,"profile":102163307545/;"	n
+compile_kind	target/debug/.fingerprint/advent_2021-acb9cc02b1c5ecc4/test-bin-advent_2021.json	/^{"rustc":8020860686714880400,"features":"[]","target":14971729297076664852,"profile":10216330754/;"	n
+compile_kind	target/debug/.fingerprint/advent_2021-ad577bef711315b0/test-bin-advent_2021.json	/^{"rustc":10026429466883849012,"features":"[]","target":5242205794972051748,"profile":64153482883/;"	n
+compile_kind	target/debug/.fingerprint/advent_2021-e1ec49e7d795f65d/test-bin-advent_2021.json	/^{"rustc":7409016768189200941,"features":"[]","target":3582900816897624388,"profile":102163307545/;"	n
+compile_kind	target/debug/.fingerprint/advent_2021-e272361c18cf75c5/bin-advent_2021.json	/^{"rustc":10026429466883849012,"features":"[]","target":9241109471690605214,"profile":11448445750/;"	n
+compile_kind	target/debug/.fingerprint/advent_2021-e5cc0dacd63239cb/bin-advent_2021.json	/^{"rustc":7409016768189200941,"features":"[]","target":3582900816897624388,"profile":730914168686/;"	n
+compile_kind	target/debug/.fingerprint/advent_2021-fc7cda1cecf81d05/test-bin-advent_2021.json	/^{"rustc":10026429466883849012,"features":"[]","target":9241109471690605214,"profile":64153482883/;"	n
+compute_ratings	src/solutions/solution_03.rs	/^fn compute_ratings(input_numbers: Vec<u32>, bits: usize) -> (u32, u32) {$/;"	f
+config	target/debug/.fingerprint/AoC_2021-1848f3e98b89b3d1/test-bin-AoC_2021.json	/^{"rustc":10077412179023509715,"features":"[]","target":11103553238831657604,"profile":6415348288/;"	n
+config	target/debug/.fingerprint/AoC_2021-18e75480cb722bd1/bin-AoC_2021.json	/^{"rustc":10077412179023509715,"features":"[]","target":11103553238831657604,"profile":1144844575/;"	n
+config	target/debug/.fingerprint/AoC_2021-375d8eb21ee48a46/test-bin-AoC_2021.json	/^{"rustc":10077412179023509715,"features":"[]","target":11103553238831657604,"profile":6415348288/;"	n
+config	target/debug/.fingerprint/AoC_2021-52ef7cbd990ea619/bin-AoC_2021.json	/^{"rustc":10077412179023509715,"features":"[]","target":11103553238831657604,"profile":1144844575/;"	n
+config	target/debug/.fingerprint/AoC_2021-5ed48ffd3d41022b/bin-AoC_2021.json	/^{"rustc":8020860686714880400,"features":"[]","target":9527172775541262777,"profile":730914168686/;"	n
+config	target/debug/.fingerprint/AoC_2021-8cef22a3156f1720/test-bin-AoC_2021.json	/^{"rustc":8020860686714880400,"features":"[]","target":9527172775541262777,"profile":102163307545/;"	n
+config	target/debug/.fingerprint/AoC_2021-c6a7c70b0686ab51/test-bin-AoC_2021.json	/^{"rustc":8020860686714880400,"features":"[]","target":9527172775541262777,"profile":102163307545/;"	n
+config	target/debug/.fingerprint/AoC_2021-d02448b26699337a/bin-AoC_2021.json	/^{"rustc":8020860686714880400,"features":"[]","target":9527172775541262777,"profile":730914168686/;"	n
+config	target/debug/.fingerprint/advent_2021-1a51593105351809/bin-advent_2021.json	/^{"rustc":10026429466883849012,"features":"[]","target":5242205794972051748,"profile":18108590124/;"	n
+config	target/debug/.fingerprint/advent_2021-1acb23e191f65a9f/bin-advent_2021.json	/^{"rustc":7409016768189200941,"features":"[]","target":3582900816897624388,"profile":925101365624/;"	n
+config	target/debug/.fingerprint/advent_2021-34f7fd87a4480260/bin-advent_2021.json	/^{"rustc":8020860686714880400,"features":"[]","target":3582900816897624388,"profile":925101365624/;"	n
+config	target/debug/.fingerprint/advent_2021-3e8de721471dd047/bin-advent_2021.json	/^{"rustc":10026429466883849012,"features":"[]","target":9241109471690605214,"profile":11448445750/;"	n
+config	target/debug/.fingerprint/advent_2021-627f6773619504d6/bin-advent_2021.json	/^{"rustc":8020860686714880400,"features":"[]","target":14971729297076664852,"profile":73091416868/;"	n
+config	target/debug/.fingerprint/advent_2021-6e49952f92e9d0e6/bin-advent_2021.json	/^{"rustc":7409016768189200941,"features":"[]","target":3582900816897624388,"profile":730914168686/;"	n
+config	target/debug/.fingerprint/advent_2021-9f5090350aba620d/test-bin-advent_2021.json	/^{"rustc":7409016768189200941,"features":"[]","target":3582900816897624388,"profile":102163307545/;"	n
+config	target/debug/.fingerprint/advent_2021-acb9cc02b1c5ecc4/test-bin-advent_2021.json	/^{"rustc":8020860686714880400,"features":"[]","target":14971729297076664852,"profile":10216330754/;"	n
+config	target/debug/.fingerprint/advent_2021-ad577bef711315b0/test-bin-advent_2021.json	/^{"rustc":10026429466883849012,"features":"[]","target":5242205794972051748,"profile":64153482883/;"	n
+config	target/debug/.fingerprint/advent_2021-e1ec49e7d795f65d/test-bin-advent_2021.json	/^{"rustc":7409016768189200941,"features":"[]","target":3582900816897624388,"profile":102163307545/;"	n
+config	target/debug/.fingerprint/advent_2021-e272361c18cf75c5/bin-advent_2021.json	/^{"rustc":10026429466883849012,"features":"[]","target":9241109471690605214,"profile":11448445750/;"	n
+config	target/debug/.fingerprint/advent_2021-e5cc0dacd63239cb/bin-advent_2021.json	/^{"rustc":7409016768189200941,"features":"[]","target":3582900816897624388,"profile":730914168686/;"	n
+config	target/debug/.fingerprint/advent_2021-fc7cda1cecf81d05/test-bin-advent_2021.json	/^{"rustc":10026429466883849012,"features":"[]","target":9241109471690605214,"profile":64153482883/;"	n
+connect	src/solutions/solution_12.rs	/^    fn connect(&mut self, name1: &'a str, name2: &'a str) {$/;"	P	implementation:Network
+dep_info	target/debug/.fingerprint/AoC_2021-1848f3e98b89b3d1/test-bin-AoC_2021.json	/^{"rustc":10077412179023509715,"features":"[]","target":11103553238831657604,"profile":6415348288/;"	s	object:local.0.CheckDepInfo
+dep_info	target/debug/.fingerprint/AoC_2021-18e75480cb722bd1/bin-AoC_2021.json	/^{"rustc":10077412179023509715,"features":"[]","target":11103553238831657604,"profile":1144844575/;"	s	object:local.0.CheckDepInfo
+dep_info	target/debug/.fingerprint/AoC_2021-375d8eb21ee48a46/test-bin-AoC_2021.json	/^{"rustc":10077412179023509715,"features":"[]","target":11103553238831657604,"profile":6415348288/;"	s	object:local.0.CheckDepInfo
+dep_info	target/debug/.fingerprint/AoC_2021-52ef7cbd990ea619/bin-AoC_2021.json	/^{"rustc":10077412179023509715,"features":"[]","target":11103553238831657604,"profile":1144844575/;"	s	object:local.0.CheckDepInfo
+dep_info	target/debug/.fingerprint/AoC_2021-5ed48ffd3d41022b/bin-AoC_2021.json	/^{"rustc":8020860686714880400,"features":"[]","target":9527172775541262777,"profile":730914168686/;"	s	object:local.0.CheckDepInfo
+dep_info	target/debug/.fingerprint/AoC_2021-8cef22a3156f1720/test-bin-AoC_2021.json	/^{"rustc":8020860686714880400,"features":"[]","target":9527172775541262777,"profile":102163307545/;"	s	object:local.0.CheckDepInfo
+dep_info	target/debug/.fingerprint/AoC_2021-c6a7c70b0686ab51/test-bin-AoC_2021.json	/^{"rustc":8020860686714880400,"features":"[]","target":9527172775541262777,"profile":102163307545/;"	s	object:local.0.CheckDepInfo
+dep_info	target/debug/.fingerprint/AoC_2021-d02448b26699337a/bin-AoC_2021.json	/^{"rustc":8020860686714880400,"features":"[]","target":9527172775541262777,"profile":730914168686/;"	s	object:local.0.CheckDepInfo
+dep_info	target/debug/.fingerprint/advent_2021-1a51593105351809/bin-advent_2021.json	/^{"rustc":10026429466883849012,"features":"[]","target":5242205794972051748,"profile":18108590124/;"	s	object:local.0.CheckDepInfo
+dep_info	target/debug/.fingerprint/advent_2021-1acb23e191f65a9f/bin-advent_2021.json	/^{"rustc":7409016768189200941,"features":"[]","target":3582900816897624388,"profile":925101365624/;"	s	object:local.0.CheckDepInfo
+dep_info	target/debug/.fingerprint/advent_2021-34f7fd87a4480260/bin-advent_2021.json	/^{"rustc":8020860686714880400,"features":"[]","target":3582900816897624388,"profile":925101365624/;"	s	object:local.0.CheckDepInfo
+dep_info	target/debug/.fingerprint/advent_2021-3e8de721471dd047/bin-advent_2021.json	/^{"rustc":10026429466883849012,"features":"[]","target":9241109471690605214,"profile":11448445750/;"	s	object:local.0.CheckDepInfo
+dep_info	target/debug/.fingerprint/advent_2021-627f6773619504d6/bin-advent_2021.json	/^{"rustc":8020860686714880400,"features":"[]","target":14971729297076664852,"profile":73091416868/;"	s	object:local.0.CheckDepInfo
+dep_info	target/debug/.fingerprint/advent_2021-6e49952f92e9d0e6/bin-advent_2021.json	/^{"rustc":7409016768189200941,"features":"[]","target":3582900816897624388,"profile":730914168686/;"	s	object:local.0.CheckDepInfo
+dep_info	target/debug/.fingerprint/advent_2021-9f5090350aba620d/test-bin-advent_2021.json	/^{"rustc":7409016768189200941,"features":"[]","target":3582900816897624388,"profile":102163307545/;"	s	object:local.0.CheckDepInfo
+dep_info	target/debug/.fingerprint/advent_2021-acb9cc02b1c5ecc4/test-bin-advent_2021.json	/^{"rustc":8020860686714880400,"features":"[]","target":14971729297076664852,"profile":10216330754/;"	s	object:local.0.CheckDepInfo
+dep_info	target/debug/.fingerprint/advent_2021-ad577bef711315b0/test-bin-advent_2021.json	/^{"rustc":10026429466883849012,"features":"[]","target":5242205794972051748,"profile":64153482883/;"	s	object:local.0.CheckDepInfo
+dep_info	target/debug/.fingerprint/advent_2021-e1ec49e7d795f65d/test-bin-advent_2021.json	/^{"rustc":7409016768189200941,"features":"[]","target":3582900816897624388,"profile":102163307545/;"	s	object:local.0.CheckDepInfo
+dep_info	target/debug/.fingerprint/advent_2021-e272361c18cf75c5/bin-advent_2021.json	/^{"rustc":10026429466883849012,"features":"[]","target":9241109471690605214,"profile":11448445750/;"	s	object:local.0.CheckDepInfo
+dep_info	target/debug/.fingerprint/advent_2021-e5cc0dacd63239cb/bin-advent_2021.json	/^{"rustc":7409016768189200941,"features":"[]","target":3582900816897624388,"profile":730914168686/;"	s	object:local.0.CheckDepInfo
+dep_info	target/debug/.fingerprint/advent_2021-fc7cda1cecf81d05/test-bin-advent_2021.json	/^{"rustc":10026429466883849012,"features":"[]","target":9241109471690605214,"profile":64153482883/;"	s	object:local.0.CheckDepInfo
+deps	target/debug/.fingerprint/AoC_2021-1848f3e98b89b3d1/test-bin-AoC_2021.json	/^{"rustc":10077412179023509715,"features":"[]","target":11103553238831657604,"profile":6415348288/;"	a
+deps	target/debug/.fingerprint/AoC_2021-18e75480cb722bd1/bin-AoC_2021.json	/^{"rustc":10077412179023509715,"features":"[]","target":11103553238831657604,"profile":1144844575/;"	a
+deps	target/debug/.fingerprint/AoC_2021-375d8eb21ee48a46/test-bin-AoC_2021.json	/^{"rustc":10077412179023509715,"features":"[]","target":11103553238831657604,"profile":6415348288/;"	a
+deps	target/debug/.fingerprint/AoC_2021-52ef7cbd990ea619/bin-AoC_2021.json	/^{"rustc":10077412179023509715,"features":"[]","target":11103553238831657604,"profile":1144844575/;"	a
+deps	target/debug/.fingerprint/AoC_2021-5ed48ffd3d41022b/bin-AoC_2021.json	/^{"rustc":8020860686714880400,"features":"[]","target":9527172775541262777,"profile":730914168686/;"	a
+deps	target/debug/.fingerprint/AoC_2021-8cef22a3156f1720/test-bin-AoC_2021.json	/^{"rustc":8020860686714880400,"features":"[]","target":9527172775541262777,"profile":102163307545/;"	a
+deps	target/debug/.fingerprint/AoC_2021-c6a7c70b0686ab51/test-bin-AoC_2021.json	/^{"rustc":8020860686714880400,"features":"[]","target":9527172775541262777,"profile":102163307545/;"	a
+deps	target/debug/.fingerprint/AoC_2021-d02448b26699337a/bin-AoC_2021.json	/^{"rustc":8020860686714880400,"features":"[]","target":9527172775541262777,"profile":730914168686/;"	a
+deps	target/debug/.fingerprint/advent_2021-1a51593105351809/bin-advent_2021.json	/^{"rustc":10026429466883849012,"features":"[]","target":5242205794972051748,"profile":18108590124/;"	a
+deps	target/debug/.fingerprint/advent_2021-1acb23e191f65a9f/bin-advent_2021.json	/^{"rustc":7409016768189200941,"features":"[]","target":3582900816897624388,"profile":925101365624/;"	a
+deps	target/debug/.fingerprint/advent_2021-34f7fd87a4480260/bin-advent_2021.json	/^{"rustc":8020860686714880400,"features":"[]","target":3582900816897624388,"profile":925101365624/;"	a
+deps	target/debug/.fingerprint/advent_2021-3e8de721471dd047/bin-advent_2021.json	/^{"rustc":10026429466883849012,"features":"[]","target":9241109471690605214,"profile":11448445750/;"	a
+deps	target/debug/.fingerprint/advent_2021-627f6773619504d6/bin-advent_2021.json	/^{"rustc":8020860686714880400,"features":"[]","target":14971729297076664852,"profile":73091416868/;"	a
+deps	target/debug/.fingerprint/advent_2021-6e49952f92e9d0e6/bin-advent_2021.json	/^{"rustc":7409016768189200941,"features":"[]","target":3582900816897624388,"profile":730914168686/;"	a
+deps	target/debug/.fingerprint/advent_2021-9f5090350aba620d/test-bin-advent_2021.json	/^{"rustc":7409016768189200941,"features":"[]","target":3582900816897624388,"profile":102163307545/;"	a
+deps	target/debug/.fingerprint/advent_2021-acb9cc02b1c5ecc4/test-bin-advent_2021.json	/^{"rustc":8020860686714880400,"features":"[]","target":14971729297076664852,"profile":10216330754/;"	a
+deps	target/debug/.fingerprint/advent_2021-ad577bef711315b0/test-bin-advent_2021.json	/^{"rustc":10026429466883849012,"features":"[]","target":5242205794972051748,"profile":64153482883/;"	a
+deps	target/debug/.fingerprint/advent_2021-e1ec49e7d795f65d/test-bin-advent_2021.json	/^{"rustc":7409016768189200941,"features":"[]","target":3582900816897624388,"profile":102163307545/;"	a
+deps	target/debug/.fingerprint/advent_2021-e272361c18cf75c5/bin-advent_2021.json	/^{"rustc":10026429466883849012,"features":"[]","target":9241109471690605214,"profile":11448445750/;"	a
+deps	target/debug/.fingerprint/advent_2021-e5cc0dacd63239cb/bin-advent_2021.json	/^{"rustc":7409016768189200941,"features":"[]","target":3582900816897624388,"profile":730914168686/;"	a
+deps	target/debug/.fingerprint/advent_2021-fc7cda1cecf81d05/test-bin-advent_2021.json	/^{"rustc":10026429466883849012,"features":"[]","target":9241109471690605214,"profile":64153482883/;"	a
+descendants	src/solutions/solution_06.rs	/^fn descendants(t: u32, gen: u32) -> u64 {$/;"	f
+diagonals	src/solutions/solution_05.rs	/^fn diagonals(lines: &Vec<Line>) -> Vec<Line> {$/;"	f
+exits	src/solutions/solution_12.rs	/^    exits: Vec<usize>,$/;"	m	struct:Cave
+features	target/debug/.fingerprint/AoC_2021-1848f3e98b89b3d1/test-bin-AoC_2021.json	/^{"rustc":10077412179023509715,"features":"[]","target":11103553238831657604,"profile":6415348288/;"	s
+features	target/debug/.fingerprint/AoC_2021-18e75480cb722bd1/bin-AoC_2021.json	/^{"rustc":10077412179023509715,"features":"[]","target":11103553238831657604,"profile":1144844575/;"	s
+features	target/debug/.fingerprint/AoC_2021-375d8eb21ee48a46/test-bin-AoC_2021.json	/^{"rustc":10077412179023509715,"features":"[]","target":11103553238831657604,"profile":6415348288/;"	s
+features	target/debug/.fingerprint/AoC_2021-52ef7cbd990ea619/bin-AoC_2021.json	/^{"rustc":10077412179023509715,"features":"[]","target":11103553238831657604,"profile":1144844575/;"	s
+features	target/debug/.fingerprint/AoC_2021-5ed48ffd3d41022b/bin-AoC_2021.json	/^{"rustc":8020860686714880400,"features":"[]","target":9527172775541262777,"profile":730914168686/;"	s
+features	target/debug/.fingerprint/AoC_2021-8cef22a3156f1720/test-bin-AoC_2021.json	/^{"rustc":8020860686714880400,"features":"[]","target":9527172775541262777,"profile":102163307545/;"	s
+features	target/debug/.fingerprint/AoC_2021-c6a7c70b0686ab51/test-bin-AoC_2021.json	/^{"rustc":8020860686714880400,"features":"[]","target":9527172775541262777,"profile":102163307545/;"	s
+features	target/debug/.fingerprint/AoC_2021-d02448b26699337a/bin-AoC_2021.json	/^{"rustc":8020860686714880400,"features":"[]","target":9527172775541262777,"profile":730914168686/;"	s
+features	target/debug/.fingerprint/advent_2021-1a51593105351809/bin-advent_2021.json	/^{"rustc":10026429466883849012,"features":"[]","target":5242205794972051748,"profile":18108590124/;"	s
+features	target/debug/.fingerprint/advent_2021-1acb23e191f65a9f/bin-advent_2021.json	/^{"rustc":7409016768189200941,"features":"[]","target":3582900816897624388,"profile":925101365624/;"	s
+features	target/debug/.fingerprint/advent_2021-34f7fd87a4480260/bin-advent_2021.json	/^{"rustc":8020860686714880400,"features":"[]","target":3582900816897624388,"profile":925101365624/;"	s
+features	target/debug/.fingerprint/advent_2021-3e8de721471dd047/bin-advent_2021.json	/^{"rustc":10026429466883849012,"features":"[]","target":9241109471690605214,"profile":11448445750/;"	s
+features	target/debug/.fingerprint/advent_2021-627f6773619504d6/bin-advent_2021.json	/^{"rustc":8020860686714880400,"features":"[]","target":14971729297076664852,"profile":73091416868/;"	s
+features	target/debug/.fingerprint/advent_2021-6e49952f92e9d0e6/bin-advent_2021.json	/^{"rustc":7409016768189200941,"features":"[]","target":3582900816897624388,"profile":730914168686/;"	s
+features	target/debug/.fingerprint/advent_2021-9f5090350aba620d/test-bin-advent_2021.json	/^{"rustc":7409016768189200941,"features":"[]","target":3582900816897624388,"profile":102163307545/;"	s
+features	target/debug/.fingerprint/advent_2021-acb9cc02b1c5ecc4/test-bin-advent_2021.json	/^{"rustc":8020860686714880400,"features":"[]","target":14971729297076664852,"profile":10216330754/;"	s
+features	target/debug/.fingerprint/advent_2021-ad577bef711315b0/test-bin-advent_2021.json	/^{"rustc":10026429466883849012,"features":"[]","target":5242205794972051748,"profile":64153482883/;"	s
+features	target/debug/.fingerprint/advent_2021-e1ec49e7d795f65d/test-bin-advent_2021.json	/^{"rustc":7409016768189200941,"features":"[]","target":3582900816897624388,"profile":102163307545/;"	s
+features	target/debug/.fingerprint/advent_2021-e272361c18cf75c5/bin-advent_2021.json	/^{"rustc":10026429466883849012,"features":"[]","target":9241109471690605214,"profile":11448445750/;"	s
+features	target/debug/.fingerprint/advent_2021-e5cc0dacd63239cb/bin-advent_2021.json	/^{"rustc":7409016768189200941,"features":"[]","target":3582900816897624388,"profile":730914168686/;"	s
+features	target/debug/.fingerprint/advent_2021-fc7cda1cecf81d05/test-bin-advent_2021.json	/^{"rustc":10026429466883849012,"features":"[]","target":9241109471690605214,"profile":64153482883/;"	s
+find_paths	src/solutions/solution_12.rs	/^    fn find_paths(&self, count: &mut u32, path: Vec<usize>, rule: &PathRule, revisited_once: boo/;"	P	implementation:Network
+flash	src/solutions/solution_11.rs	/^    fn flash(&mut self, counter: &mut u32) -> Vec<Octopus> {$/;"	P	implementation:Grid
+fuel	src/solutions/solution_07.rs	/^fn fuel(n: i32) -> i32 {$/;"	f
+get_fish	src/solutions/solution_06.rs	/^fn get_fish(lines: input::InputLines) -> Vec<u32> {$/;"	f
+get_low_points	src/solutions/solution_09.rs	/^fn get_low_points(grid: &Grid) -> Vec<Point> {$/;"	f
+height	src/solutions/solution_09.rs	/^    height: i32,$/;"	m	struct:Grid
+horizontals	src/solutions/solution_05.rs	/^fn horizontals(lines: &Vec<Line>) -> Vec<Line> {$/;"	f
+index_map	src/solutions/solution_12.rs	/^    index_map: HashMap<&'a str, usize>,$/;"	m	struct:Network
+input	src/main.rs	/^pub mod input {$/;"	n
+levels	src/solutions/solution_11.rs	/^    levels: Levels,$/;"	m	struct:Grid
+local	target/debug/.fingerprint/AoC_2021-1848f3e98b89b3d1/test-bin-AoC_2021.json	/^{"rustc":10077412179023509715,"features":"[]","target":11103553238831657604,"profile":6415348288/;"	a
+local	target/debug/.fingerprint/AoC_2021-18e75480cb722bd1/bin-AoC_2021.json	/^{"rustc":10077412179023509715,"features":"[]","target":11103553238831657604,"profile":1144844575/;"	a
+local	target/debug/.fingerprint/AoC_2021-375d8eb21ee48a46/test-bin-AoC_2021.json	/^{"rustc":10077412179023509715,"features":"[]","target":11103553238831657604,"profile":6415348288/;"	a
+local	target/debug/.fingerprint/AoC_2021-52ef7cbd990ea619/bin-AoC_2021.json	/^{"rustc":10077412179023509715,"features":"[]","target":11103553238831657604,"profile":1144844575/;"	a
+local	target/debug/.fingerprint/AoC_2021-5ed48ffd3d41022b/bin-AoC_2021.json	/^{"rustc":8020860686714880400,"features":"[]","target":9527172775541262777,"profile":730914168686/;"	a
+local	target/debug/.fingerprint/AoC_2021-8cef22a3156f1720/test-bin-AoC_2021.json	/^{"rustc":8020860686714880400,"features":"[]","target":9527172775541262777,"profile":102163307545/;"	a
+local	target/debug/.fingerprint/AoC_2021-c6a7c70b0686ab51/test-bin-AoC_2021.json	/^{"rustc":8020860686714880400,"features":"[]","target":9527172775541262777,"profile":102163307545/;"	a
+local	target/debug/.fingerprint/AoC_2021-d02448b26699337a/bin-AoC_2021.json	/^{"rustc":8020860686714880400,"features":"[]","target":9527172775541262777,"profile":730914168686/;"	a
+local	target/debug/.fingerprint/advent_2021-1a51593105351809/bin-advent_2021.json	/^{"rustc":10026429466883849012,"features":"[]","target":5242205794972051748,"profile":18108590124/;"	a
+local	target/debug/.fingerprint/advent_2021-1acb23e191f65a9f/bin-advent_2021.json	/^{"rustc":7409016768189200941,"features":"[]","target":3582900816897624388,"profile":925101365624/;"	a
+local	target/debug/.fingerprint/advent_2021-34f7fd87a4480260/bin-advent_2021.json	/^{"rustc":8020860686714880400,"features":"[]","target":3582900816897624388,"profile":925101365624/;"	a
+local	target/debug/.fingerprint/advent_2021-3e8de721471dd047/bin-advent_2021.json	/^{"rustc":10026429466883849012,"features":"[]","target":9241109471690605214,"profile":11448445750/;"	a
+local	target/debug/.fingerprint/advent_2021-627f6773619504d6/bin-advent_2021.json	/^{"rustc":8020860686714880400,"features":"[]","target":14971729297076664852,"profile":73091416868/;"	a
+local	target/debug/.fingerprint/advent_2021-6e49952f92e9d0e6/bin-advent_2021.json	/^{"rustc":7409016768189200941,"features":"[]","target":3582900816897624388,"profile":730914168686/;"	a
+local	target/debug/.fingerprint/advent_2021-9f5090350aba620d/test-bin-advent_2021.json	/^{"rustc":7409016768189200941,"features":"[]","target":3582900816897624388,"profile":102163307545/;"	a
+local	target/debug/.fingerprint/advent_2021-acb9cc02b1c5ecc4/test-bin-advent_2021.json	/^{"rustc":8020860686714880400,"features":"[]","target":14971729297076664852,"profile":10216330754/;"	a
+local	target/debug/.fingerprint/advent_2021-ad577bef711315b0/test-bin-advent_2021.json	/^{"rustc":10026429466883849012,"features":"[]","target":5242205794972051748,"profile":64153482883/;"	a
+local	target/debug/.fingerprint/advent_2021-e1ec49e7d795f65d/test-bin-advent_2021.json	/^{"rustc":7409016768189200941,"features":"[]","target":3582900816897624388,"profile":102163307545/;"	a
+local	target/debug/.fingerprint/advent_2021-e272361c18cf75c5/bin-advent_2021.json	/^{"rustc":10026429466883849012,"features":"[]","target":9241109471690605214,"profile":11448445750/;"	a
+local	target/debug/.fingerprint/advent_2021-e5cc0dacd63239cb/bin-advent_2021.json	/^{"rustc":7409016768189200941,"features":"[]","target":3582900816897624388,"profile":730914168686/;"	a
+local	target/debug/.fingerprint/advent_2021-fc7cda1cecf81d05/test-bin-advent_2021.json	/^{"rustc":10026429466883849012,"features":"[]","target":9241109471690605214,"profile":64153482883/;"	a
+main	src/main.rs	/^fn main() {$/;"	f
+make_boards	src/solutions/solution_04.rs	/^fn make_boards(lines: input::InputLines) -> (Boards, Nums) {$/;"	f
+make_grid	src/solutions/solution_05.rs	/^fn make_grid(lines: &Vec<Line>) -> Vec<Vec<u32>> {$/;"	f
+metadata	target/debug/.fingerprint/AoC_2021-1848f3e98b89b3d1/test-bin-AoC_2021.json	/^{"rustc":10077412179023509715,"features":"[]","target":11103553238831657604,"profile":6415348288/;"	n
+metadata	target/debug/.fingerprint/AoC_2021-18e75480cb722bd1/bin-AoC_2021.json	/^{"rustc":10077412179023509715,"features":"[]","target":11103553238831657604,"profile":1144844575/;"	n
+metadata	target/debug/.fingerprint/AoC_2021-375d8eb21ee48a46/test-bin-AoC_2021.json	/^{"rustc":10077412179023509715,"features":"[]","target":11103553238831657604,"profile":6415348288/;"	n
+metadata	target/debug/.fingerprint/AoC_2021-52ef7cbd990ea619/bin-AoC_2021.json	/^{"rustc":10077412179023509715,"features":"[]","target":11103553238831657604,"profile":1144844575/;"	n
+metadata	target/debug/.fingerprint/AoC_2021-5ed48ffd3d41022b/bin-AoC_2021.json	/^{"rustc":8020860686714880400,"features":"[]","target":9527172775541262777,"profile":730914168686/;"	n
+metadata	target/debug/.fingerprint/AoC_2021-8cef22a3156f1720/test-bin-AoC_2021.json	/^{"rustc":8020860686714880400,"features":"[]","target":9527172775541262777,"profile":102163307545/;"	n
+metadata	target/debug/.fingerprint/AoC_2021-c6a7c70b0686ab51/test-bin-AoC_2021.json	/^{"rustc":8020860686714880400,"features":"[]","target":9527172775541262777,"profile":102163307545/;"	n
+metadata	target/debug/.fingerprint/AoC_2021-d02448b26699337a/bin-AoC_2021.json	/^{"rustc":8020860686714880400,"features":"[]","target":9527172775541262777,"profile":730914168686/;"	n
+metadata	target/debug/.fingerprint/advent_2021-1a51593105351809/bin-advent_2021.json	/^{"rustc":10026429466883849012,"features":"[]","target":5242205794972051748,"profile":18108590124/;"	n
+metadata	target/debug/.fingerprint/advent_2021-1acb23e191f65a9f/bin-advent_2021.json	/^{"rustc":7409016768189200941,"features":"[]","target":3582900816897624388,"profile":925101365624/;"	n
+metadata	target/debug/.fingerprint/advent_2021-34f7fd87a4480260/bin-advent_2021.json	/^{"rustc":8020860686714880400,"features":"[]","target":3582900816897624388,"profile":925101365624/;"	n
+metadata	target/debug/.fingerprint/advent_2021-3e8de721471dd047/bin-advent_2021.json	/^{"rustc":10026429466883849012,"features":"[]","target":9241109471690605214,"profile":11448445750/;"	n
+metadata	target/debug/.fingerprint/advent_2021-627f6773619504d6/bin-advent_2021.json	/^{"rustc":8020860686714880400,"features":"[]","target":14971729297076664852,"profile":73091416868/;"	n
+metadata	target/debug/.fingerprint/advent_2021-6e49952f92e9d0e6/bin-advent_2021.json	/^{"rustc":7409016768189200941,"features":"[]","target":3582900816897624388,"profile":730914168686/;"	n
+metadata	target/debug/.fingerprint/advent_2021-9f5090350aba620d/test-bin-advent_2021.json	/^{"rustc":7409016768189200941,"features":"[]","target":3582900816897624388,"profile":102163307545/;"	n
+metadata	target/debug/.fingerprint/advent_2021-acb9cc02b1c5ecc4/test-bin-advent_2021.json	/^{"rustc":8020860686714880400,"features":"[]","target":14971729297076664852,"profile":10216330754/;"	n
+metadata	target/debug/.fingerprint/advent_2021-ad577bef711315b0/test-bin-advent_2021.json	/^{"rustc":10026429466883849012,"features":"[]","target":5242205794972051748,"profile":64153482883/;"	n
+metadata	target/debug/.fingerprint/advent_2021-e1ec49e7d795f65d/test-bin-advent_2021.json	/^{"rustc":7409016768189200941,"features":"[]","target":3582900816897624388,"profile":102163307545/;"	n
+metadata	target/debug/.fingerprint/advent_2021-e272361c18cf75c5/bin-advent_2021.json	/^{"rustc":10026429466883849012,"features":"[]","target":9241109471690605214,"profile":11448445750/;"	n
+metadata	target/debug/.fingerprint/advent_2021-e5cc0dacd63239cb/bin-advent_2021.json	/^{"rustc":7409016768189200941,"features":"[]","target":3582900816897624388,"profile":730914168686/;"	n
+metadata	target/debug/.fingerprint/advent_2021-fc7cda1cecf81d05/test-bin-advent_2021.json	/^{"rustc":10026429466883849012,"features":"[]","target":9241109471690605214,"profile":64153482883/;"	n
+name	src/solutions/solution_12.rs	/^    name: String,$/;"	m	struct:Cave
+neighbor_values	src/solutions/solution_09.rs	/^fn neighbor_values(grid: &Grid, point: Point) -> Vec<u8> {$/;"	f
+neighbors	src/solutions/solution_09.rs	/^fn neighbors(grid: &Grid, point: Point) -> Vec<Point> {$/;"	f
+neighbors	src/solutions/solution_11.rs	/^fn neighbors(grid: &Grid, point: Octopus) -> Vec<(Octopus, u8)> {$/;"	f
+new	src/solutions/solution_12.rs	/^    fn new() -> Network<'a> {$/;"	P	implementation:Network
+new	src/solutions/solution_12.rs	/^    fn new(name: &str) -> Cave {$/;"	P	implementation:Cave
+outputs	target/.rustc_info.json	/^{"rustc_fingerprint":13134320078544071847,"outputs":{"17598535894874457435":{"success":true,"sta/;"	o
+parse_gamma	src/solutions/solution_03.rs	/^fn parse_gamma(lines: input::InputLines) -> String {$/;"	f
+parse_grid	src/solutions/solution_09.rs	/^fn parse_grid(input: &str) -> Grid {$/;"	f
+parse_input	src/solutions/solution_05.rs	/^fn parse_input(lines: input::InputLines) -> Vec<Line> {$/;"	f
+parse_input	src/solutions/solution_07.rs	/^fn parse_input(lines: &input::InputLines) -> Vec<i32> {$/;"	f
+parse_input	src/solutions/solution_08.rs	/^fn parse_input(lines: InputLines) -> (Vec<Vec<&str>>, Vec<Vec<&str>>) {$/;"	f
+parse_input	src/solutions/solution_11.rs	/^fn parse_input(input: &str) -> Grid {$/;"	f
+parse_input	src/solutions/solution_12.rs	/^fn parse_input(input: &str) -> Network {$/;"	f
+parse_instructions	src/solutions/solution_02.rs	/^fn parse_instructions(lines: input::InputLines) -> Vec<Instruction> {$/;"	f
+path	target/debug/.fingerprint/AoC_2021-1848f3e98b89b3d1/test-bin-AoC_2021.json	/^{"rustc":10077412179023509715,"features":"[]","target":11103553238831657604,"profile":6415348288/;"	n
+path	target/debug/.fingerprint/AoC_2021-18e75480cb722bd1/bin-AoC_2021.json	/^{"rustc":10077412179023509715,"features":"[]","target":11103553238831657604,"profile":1144844575/;"	n
+path	target/debug/.fingerprint/AoC_2021-375d8eb21ee48a46/test-bin-AoC_2021.json	/^{"rustc":10077412179023509715,"features":"[]","target":11103553238831657604,"profile":6415348288/;"	n
+path	target/debug/.fingerprint/AoC_2021-52ef7cbd990ea619/bin-AoC_2021.json	/^{"rustc":10077412179023509715,"features":"[]","target":11103553238831657604,"profile":1144844575/;"	n
+path	target/debug/.fingerprint/AoC_2021-5ed48ffd3d41022b/bin-AoC_2021.json	/^{"rustc":8020860686714880400,"features":"[]","target":9527172775541262777,"profile":730914168686/;"	n
+path	target/debug/.fingerprint/AoC_2021-8cef22a3156f1720/test-bin-AoC_2021.json	/^{"rustc":8020860686714880400,"features":"[]","target":9527172775541262777,"profile":102163307545/;"	n
+path	target/debug/.fingerprint/AoC_2021-c6a7c70b0686ab51/test-bin-AoC_2021.json	/^{"rustc":8020860686714880400,"features":"[]","target":9527172775541262777,"profile":102163307545/;"	n
+path	target/debug/.fingerprint/AoC_2021-d02448b26699337a/bin-AoC_2021.json	/^{"rustc":8020860686714880400,"features":"[]","target":9527172775541262777,"profile":730914168686/;"	n
+path	target/debug/.fingerprint/advent_2021-1a51593105351809/bin-advent_2021.json	/^{"rustc":10026429466883849012,"features":"[]","target":5242205794972051748,"profile":18108590124/;"	n
+path	target/debug/.fingerprint/advent_2021-1acb23e191f65a9f/bin-advent_2021.json	/^{"rustc":7409016768189200941,"features":"[]","target":3582900816897624388,"profile":925101365624/;"	n
+path	target/debug/.fingerprint/advent_2021-34f7fd87a4480260/bin-advent_2021.json	/^{"rustc":8020860686714880400,"features":"[]","target":3582900816897624388,"profile":925101365624/;"	n
+path	target/debug/.fingerprint/advent_2021-3e8de721471dd047/bin-advent_2021.json	/^{"rustc":10026429466883849012,"features":"[]","target":9241109471690605214,"profile":11448445750/;"	n
+path	target/debug/.fingerprint/advent_2021-627f6773619504d6/bin-advent_2021.json	/^{"rustc":8020860686714880400,"features":"[]","target":14971729297076664852,"profile":73091416868/;"	n
+path	target/debug/.fingerprint/advent_2021-6e49952f92e9d0e6/bin-advent_2021.json	/^{"rustc":7409016768189200941,"features":"[]","target":3582900816897624388,"profile":730914168686/;"	n
+path	target/debug/.fingerprint/advent_2021-9f5090350aba620d/test-bin-advent_2021.json	/^{"rustc":7409016768189200941,"features":"[]","target":3582900816897624388,"profile":102163307545/;"	n
+path	target/debug/.fingerprint/advent_2021-acb9cc02b1c5ecc4/test-bin-advent_2021.json	/^{"rustc":8020860686714880400,"features":"[]","target":14971729297076664852,"profile":10216330754/;"	n
+path	target/debug/.fingerprint/advent_2021-ad577bef711315b0/test-bin-advent_2021.json	/^{"rustc":10026429466883849012,"features":"[]","target":5242205794972051748,"profile":64153482883/;"	n
+path	target/debug/.fingerprint/advent_2021-e1ec49e7d795f65d/test-bin-advent_2021.json	/^{"rustc":7409016768189200941,"features":"[]","target":3582900816897624388,"profile":102163307545/;"	n
+path	target/debug/.fingerprint/advent_2021-e272361c18cf75c5/bin-advent_2021.json	/^{"rustc":10026429466883849012,"features":"[]","target":9241109471690605214,"profile":11448445750/;"	n
+path	target/debug/.fingerprint/advent_2021-e5cc0dacd63239cb/bin-advent_2021.json	/^{"rustc":7409016768189200941,"features":"[]","target":3582900816897624388,"profile":730914168686/;"	n
+path	target/debug/.fingerprint/advent_2021-fc7cda1cecf81d05/test-bin-advent_2021.json	/^{"rustc":10026429466883849012,"features":"[]","target":9241109471690605214,"profile":64153482883/;"	n
+paths	src/solutions/solution_12.rs	/^    fn paths(&self, rule: PathRule) -> u32 {$/;"	P	implementation:Network
+print_board	src/solutions/solution_04.rs	/^fn print_board(board: &Vec<Vec<&str>>) {$/;"	f
+profile	target/debug/.fingerprint/AoC_2021-1848f3e98b89b3d1/test-bin-AoC_2021.json	/^{"rustc":10077412179023509715,"features":"[]","target":11103553238831657604,"profile":6415348288/;"	n
+profile	target/debug/.fingerprint/AoC_2021-18e75480cb722bd1/bin-AoC_2021.json	/^{"rustc":10077412179023509715,"features":"[]","target":11103553238831657604,"profile":1144844575/;"	n
+profile	target/debug/.fingerprint/AoC_2021-375d8eb21ee48a46/test-bin-AoC_2021.json	/^{"rustc":10077412179023509715,"features":"[]","target":11103553238831657604,"profile":6415348288/;"	n
+profile	target/debug/.fingerprint/AoC_2021-52ef7cbd990ea619/bin-AoC_2021.json	/^{"rustc":10077412179023509715,"features":"[]","target":11103553238831657604,"profile":1144844575/;"	n
+profile	target/debug/.fingerprint/AoC_2021-5ed48ffd3d41022b/bin-AoC_2021.json	/^{"rustc":8020860686714880400,"features":"[]","target":9527172775541262777,"profile":730914168686/;"	n
+profile	target/debug/.fingerprint/AoC_2021-8cef22a3156f1720/test-bin-AoC_2021.json	/^{"rustc":8020860686714880400,"features":"[]","target":9527172775541262777,"profile":102163307545/;"	n
+profile	target/debug/.fingerprint/AoC_2021-c6a7c70b0686ab51/test-bin-AoC_2021.json	/^{"rustc":8020860686714880400,"features":"[]","target":9527172775541262777,"profile":102163307545/;"	n
+profile	target/debug/.fingerprint/AoC_2021-d02448b26699337a/bin-AoC_2021.json	/^{"rustc":8020860686714880400,"features":"[]","target":9527172775541262777,"profile":730914168686/;"	n
+profile	target/debug/.fingerprint/advent_2021-1a51593105351809/bin-advent_2021.json	/^{"rustc":10026429466883849012,"features":"[]","target":5242205794972051748,"profile":18108590124/;"	n
+profile	target/debug/.fingerprint/advent_2021-1acb23e191f65a9f/bin-advent_2021.json	/^{"rustc":7409016768189200941,"features":"[]","target":3582900816897624388,"profile":925101365624/;"	n
+profile	target/debug/.fingerprint/advent_2021-34f7fd87a4480260/bin-advent_2021.json	/^{"rustc":8020860686714880400,"features":"[]","target":3582900816897624388,"profile":925101365624/;"	n
+profile	target/debug/.fingerprint/advent_2021-3e8de721471dd047/bin-advent_2021.json	/^{"rustc":10026429466883849012,"features":"[]","target":9241109471690605214,"profile":11448445750/;"	n
+profile	target/debug/.fingerprint/advent_2021-627f6773619504d6/bin-advent_2021.json	/^{"rustc":8020860686714880400,"features":"[]","target":14971729297076664852,"profile":73091416868/;"	n
+profile	target/debug/.fingerprint/advent_2021-6e49952f92e9d0e6/bin-advent_2021.json	/^{"rustc":7409016768189200941,"features":"[]","target":3582900816897624388,"profile":730914168686/;"	n
+profile	target/debug/.fingerprint/advent_2021-9f5090350aba620d/test-bin-advent_2021.json	/^{"rustc":7409016768189200941,"features":"[]","target":3582900816897624388,"profile":102163307545/;"	n
+profile	target/debug/.fingerprint/advent_2021-acb9cc02b1c5ecc4/test-bin-advent_2021.json	/^{"rustc":8020860686714880400,"features":"[]","target":14971729297076664852,"profile":10216330754/;"	n
+profile	target/debug/.fingerprint/advent_2021-ad577bef711315b0/test-bin-advent_2021.json	/^{"rustc":10026429466883849012,"features":"[]","target":5242205794972051748,"profile":64153482883/;"	n
+profile	target/debug/.fingerprint/advent_2021-e1ec49e7d795f65d/test-bin-advent_2021.json	/^{"rustc":7409016768189200941,"features":"[]","target":3582900816897624388,"profile":102163307545/;"	n
+profile	target/debug/.fingerprint/advent_2021-e272361c18cf75c5/bin-advent_2021.json	/^{"rustc":10026429466883849012,"features":"[]","target":9241109471690605214,"profile":11448445750/;"	n
+profile	target/debug/.fingerprint/advent_2021-e5cc0dacd63239cb/bin-advent_2021.json	/^{"rustc":7409016768189200941,"features":"[]","target":3582900816897624388,"profile":730914168686/;"	n
+profile	target/debug/.fingerprint/advent_2021-fc7cda1cecf81d05/test-bin-advent_2021.json	/^{"rustc":10026429466883849012,"features":"[]","target":9241109471690605214,"profile":64153482883/;"	n
+rustc	target/debug/.fingerprint/AoC_2021-1848f3e98b89b3d1/test-bin-AoC_2021.json	/^{"rustc":10077412179023509715,"features":"[]","target":11103553238831657604,"profile":6415348288/;"	n
+rustc	target/debug/.fingerprint/AoC_2021-18e75480cb722bd1/bin-AoC_2021.json	/^{"rustc":10077412179023509715,"features":"[]","target":11103553238831657604,"profile":1144844575/;"	n
+rustc	target/debug/.fingerprint/AoC_2021-375d8eb21ee48a46/test-bin-AoC_2021.json	/^{"rustc":10077412179023509715,"features":"[]","target":11103553238831657604,"profile":6415348288/;"	n
+rustc	target/debug/.fingerprint/AoC_2021-52ef7cbd990ea619/bin-AoC_2021.json	/^{"rustc":10077412179023509715,"features":"[]","target":11103553238831657604,"profile":1144844575/;"	n
+rustc	target/debug/.fingerprint/AoC_2021-5ed48ffd3d41022b/bin-AoC_2021.json	/^{"rustc":8020860686714880400,"features":"[]","target":9527172775541262777,"profile":730914168686/;"	n
+rustc	target/debug/.fingerprint/AoC_2021-8cef22a3156f1720/test-bin-AoC_2021.json	/^{"rustc":8020860686714880400,"features":"[]","target":9527172775541262777,"profile":102163307545/;"	n
+rustc	target/debug/.fingerprint/AoC_2021-c6a7c70b0686ab51/test-bin-AoC_2021.json	/^{"rustc":8020860686714880400,"features":"[]","target":9527172775541262777,"profile":102163307545/;"	n
+rustc	target/debug/.fingerprint/AoC_2021-d02448b26699337a/bin-AoC_2021.json	/^{"rustc":8020860686714880400,"features":"[]","target":9527172775541262777,"profile":730914168686/;"	n
+rustc	target/debug/.fingerprint/advent_2021-1a51593105351809/bin-advent_2021.json	/^{"rustc":10026429466883849012,"features":"[]","target":5242205794972051748,"profile":18108590124/;"	n
+rustc	target/debug/.fingerprint/advent_2021-1acb23e191f65a9f/bin-advent_2021.json	/^{"rustc":7409016768189200941,"features":"[]","target":3582900816897624388,"profile":925101365624/;"	n
+rustc	target/debug/.fingerprint/advent_2021-34f7fd87a4480260/bin-advent_2021.json	/^{"rustc":8020860686714880400,"features":"[]","target":3582900816897624388,"profile":925101365624/;"	n
+rustc	target/debug/.fingerprint/advent_2021-3e8de721471dd047/bin-advent_2021.json	/^{"rustc":10026429466883849012,"features":"[]","target":9241109471690605214,"profile":11448445750/;"	n
+rustc	target/debug/.fingerprint/advent_2021-627f6773619504d6/bin-advent_2021.json	/^{"rustc":8020860686714880400,"features":"[]","target":14971729297076664852,"profile":73091416868/;"	n
+rustc	target/debug/.fingerprint/advent_2021-6e49952f92e9d0e6/bin-advent_2021.json	/^{"rustc":7409016768189200941,"features":"[]","target":3582900816897624388,"profile":730914168686/;"	n
+rustc	target/debug/.fingerprint/advent_2021-9f5090350aba620d/test-bin-advent_2021.json	/^{"rustc":7409016768189200941,"features":"[]","target":3582900816897624388,"profile":102163307545/;"	n
+rustc	target/debug/.fingerprint/advent_2021-acb9cc02b1c5ecc4/test-bin-advent_2021.json	/^{"rustc":8020860686714880400,"features":"[]","target":14971729297076664852,"profile":10216330754/;"	n
+rustc	target/debug/.fingerprint/advent_2021-ad577bef711315b0/test-bin-advent_2021.json	/^{"rustc":10026429466883849012,"features":"[]","target":5242205794972051748,"profile":64153482883/;"	n
+rustc	target/debug/.fingerprint/advent_2021-e1ec49e7d795f65d/test-bin-advent_2021.json	/^{"rustc":7409016768189200941,"features":"[]","target":3582900816897624388,"profile":102163307545/;"	n
+rustc	target/debug/.fingerprint/advent_2021-e272361c18cf75c5/bin-advent_2021.json	/^{"rustc":10026429466883849012,"features":"[]","target":9241109471690605214,"profile":11448445750/;"	n
+rustc	target/debug/.fingerprint/advent_2021-e5cc0dacd63239cb/bin-advent_2021.json	/^{"rustc":7409016768189200941,"features":"[]","target":3582900816897624388,"profile":730914168686/;"	n
+rustc	target/debug/.fingerprint/advent_2021-fc7cda1cecf81d05/test-bin-advent_2021.json	/^{"rustc":10026429466883849012,"features":"[]","target":9241109471690605214,"profile":64153482883/;"	n
+rustc_fingerprint	target/.rustc_info.json	/^{"rustc_fingerprint":13134320078544071847,"outputs":{"17598535894874457435":{"success":true,"sta/;"	n
+rustflags	target/debug/.fingerprint/AoC_2021-1848f3e98b89b3d1/test-bin-AoC_2021.json	/^{"rustc":10077412179023509715,"features":"[]","target":11103553238831657604,"profile":6415348288/;"	a
+rustflags	target/debug/.fingerprint/AoC_2021-18e75480cb722bd1/bin-AoC_2021.json	/^{"rustc":10077412179023509715,"features":"[]","target":11103553238831657604,"profile":1144844575/;"	a
+rustflags	target/debug/.fingerprint/AoC_2021-375d8eb21ee48a46/test-bin-AoC_2021.json	/^{"rustc":10077412179023509715,"features":"[]","target":11103553238831657604,"profile":6415348288/;"	a
+rustflags	target/debug/.fingerprint/AoC_2021-52ef7cbd990ea619/bin-AoC_2021.json	/^{"rustc":10077412179023509715,"features":"[]","target":11103553238831657604,"profile":1144844575/;"	a
+rustflags	target/debug/.fingerprint/AoC_2021-5ed48ffd3d41022b/bin-AoC_2021.json	/^{"rustc":8020860686714880400,"features":"[]","target":9527172775541262777,"profile":730914168686/;"	a
+rustflags	target/debug/.fingerprint/AoC_2021-8cef22a3156f1720/test-bin-AoC_2021.json	/^{"rustc":8020860686714880400,"features":"[]","target":9527172775541262777,"profile":102163307545/;"	a
+rustflags	target/debug/.fingerprint/AoC_2021-c6a7c70b0686ab51/test-bin-AoC_2021.json	/^{"rustc":8020860686714880400,"features":"[]","target":9527172775541262777,"profile":102163307545/;"	a
+rustflags	target/debug/.fingerprint/AoC_2021-d02448b26699337a/bin-AoC_2021.json	/^{"rustc":8020860686714880400,"features":"[]","target":9527172775541262777,"profile":730914168686/;"	a
+rustflags	target/debug/.fingerprint/advent_2021-1a51593105351809/bin-advent_2021.json	/^{"rustc":10026429466883849012,"features":"[]","target":5242205794972051748,"profile":18108590124/;"	a
+rustflags	target/debug/.fingerprint/advent_2021-1acb23e191f65a9f/bin-advent_2021.json	/^{"rustc":7409016768189200941,"features":"[]","target":3582900816897624388,"profile":925101365624/;"	a
+rustflags	target/debug/.fingerprint/advent_2021-34f7fd87a4480260/bin-advent_2021.json	/^{"rustc":8020860686714880400,"features":"[]","target":3582900816897624388,"profile":925101365624/;"	a
+rustflags	target/debug/.fingerprint/advent_2021-3e8de721471dd047/bin-advent_2021.json	/^{"rustc":10026429466883849012,"features":"[]","target":9241109471690605214,"profile":11448445750/;"	a
+rustflags	target/debug/.fingerprint/advent_2021-627f6773619504d6/bin-advent_2021.json	/^{"rustc":8020860686714880400,"features":"[]","target":14971729297076664852,"profile":73091416868/;"	a
+rustflags	target/debug/.fingerprint/advent_2021-6e49952f92e9d0e6/bin-advent_2021.json	/^{"rustc":7409016768189200941,"features":"[]","target":3582900816897624388,"profile":730914168686/;"	a
+rustflags	target/debug/.fingerprint/advent_2021-9f5090350aba620d/test-bin-advent_2021.json	/^{"rustc":7409016768189200941,"features":"[]","target":3582900816897624388,"profile":102163307545/;"	a
+rustflags	target/debug/.fingerprint/advent_2021-acb9cc02b1c5ecc4/test-bin-advent_2021.json	/^{"rustc":8020860686714880400,"features":"[]","target":14971729297076664852,"profile":10216330754/;"	a
+rustflags	target/debug/.fingerprint/advent_2021-ad577bef711315b0/test-bin-advent_2021.json	/^{"rustc":10026429466883849012,"features":"[]","target":5242205794972051748,"profile":64153482883/;"	a
+rustflags	target/debug/.fingerprint/advent_2021-e1ec49e7d795f65d/test-bin-advent_2021.json	/^{"rustc":7409016768189200941,"features":"[]","target":3582900816897624388,"profile":102163307545/;"	a
+rustflags	target/debug/.fingerprint/advent_2021-e272361c18cf75c5/bin-advent_2021.json	/^{"rustc":10026429466883849012,"features":"[]","target":9241109471690605214,"profile":11448445750/;"	a
+rustflags	target/debug/.fingerprint/advent_2021-e5cc0dacd63239cb/bin-advent_2021.json	/^{"rustc":7409016768189200941,"features":"[]","target":3582900816897624388,"profile":730914168686/;"	a
+rustflags	target/debug/.fingerprint/advent_2021-fc7cda1cecf81d05/test-bin-advent_2021.json	/^{"rustc":10026429466883849012,"features":"[]","target":9241109471690605214,"profile":64153482883/;"	a
+score	src/solutions/solution_04.rs	/^fn score(board: &Vec<Vec<&str>>, n: u32) -> u32 {$/;"	f
+score	src/solutions/solution_10.rs	/^fn score(ch: char) -> u32 {$/;"	f
+set_at	src/solutions/solution_11.rs	/^    fn set_at(&mut self, octopus: Octopus, value: u8) {$/;"	P	implementation:Grid
+size	src/solutions/solution_12.rs	/^    size: Size,$/;"	m	struct:Cave
+solution_01	src/solutions/mod.rs	/^pub mod solution_01;$/;"	n
+solution_02	src/solutions/mod.rs	/^pub mod solution_02;$/;"	n
+solution_03	src/solutions/mod.rs	/^pub mod solution_03;$/;"	n
+solution_04	src/solutions/mod.rs	/^pub mod solution_04;$/;"	n
+solution_05	src/solutions/mod.rs	/^pub mod solution_05;$/;"	n
+solution_06	src/solutions/mod.rs	/^pub mod solution_06;$/;"	n
+solution_07	src/solutions/mod.rs	/^pub mod solution_07;$/;"	n
+solution_08	src/solutions/mod.rs	/^pub mod solution_08;$/;"	n
+solution_09	src/solutions/mod.rs	/^pub mod solution_09;$/;"	n
+solution_10	src/solutions/mod.rs	/^pub mod solution_10;$/;"	n
+solution_11	src/solutions/mod.rs	/^pub mod solution_11;$/;"	n
+solution_12	src/solutions/mod.rs	/^pub mod solution_12;$/;"	n
+solution_13	src/solutions/mod.rs	/^pub mod solution_13;$/;"	n
+solutions	src/main.rs	/^mod solutions;$/;"	n
+status	target/.rustc_info.json	/^{"rustc_fingerprint":13134320078544071847,"outputs":{"17598535894874457435":{"success":true,"sta/;"	s	object:outputs.15537503139010883884
+status	target/.rustc_info.json	/^{"rustc_fingerprint":13134320078544071847,"outputs":{"17598535894874457435":{"success":true,"sta/;"	s	object:outputs.17598535894874457435
+status	target/.rustc_info.json	/^{"rustc_fingerprint":13134320078544071847,"outputs":{"17598535894874457435":{"success":true,"sta/;"	s	object:outputs.2797684049618456168
+status	target/.rustc_info.json	/^{"rustc_fingerprint":13134320078544071847,"outputs":{"17598535894874457435":{"success":true,"sta/;"	s	object:outputs.931469667778813386
+stderr	target/.rustc_info.json	/^{"rustc_fingerprint":13134320078544071847,"outputs":{"17598535894874457435":{"success":true,"sta/;"	s	object:outputs.15537503139010883884
+stderr	target/.rustc_info.json	/^{"rustc_fingerprint":13134320078544071847,"outputs":{"17598535894874457435":{"success":true,"sta/;"	s	object:outputs.17598535894874457435
+stderr	target/.rustc_info.json	/^{"rustc_fingerprint":13134320078544071847,"outputs":{"17598535894874457435":{"success":true,"sta/;"	s	object:outputs.2797684049618456168
+stderr	target/.rustc_info.json	/^{"rustc_fingerprint":13134320078544071847,"outputs":{"17598535894874457435":{"success":true,"sta/;"	s	object:outputs.931469667778813386
+stdout	target/.rustc_info.json	/^{"rustc_fingerprint":13134320078544071847,"outputs":{"17598535894874457435":{"success":true,"sta/;"	s	object:outputs.15537503139010883884
+stdout	target/.rustc_info.json	/^{"rustc_fingerprint":13134320078544071847,"outputs":{"17598535894874457435":{"success":true,"sta/;"	s	object:outputs.17598535894874457435
+stdout	target/.rustc_info.json	/^{"rustc_fingerprint":13134320078544071847,"outputs":{"17598535894874457435":{"success":true,"sta/;"	s	object:outputs.2797684049618456168
+stdout	target/.rustc_info.json	/^{"rustc_fingerprint":13134320078544071847,"outputs":{"17598535894874457435":{"success":true,"sta/;"	s	object:outputs.931469667778813386
+step	src/solutions/solution_11.rs	/^    fn step(self, counter: &mut u32) -> Grid {$/;"	P	implementation:Grid
+step_til_simulatneous	src/solutions/solution_11.rs	/^fn step_til_simulatneous(grid: &mut Grid, counter: &mut u32) {$/;"	f
+success	target/.rustc_info.json	/^{"rustc_fingerprint":13134320078544071847,"outputs":{"17598535894874457435":{"success":true,"sta/;"	b	object:outputs.15537503139010883884
+success	target/.rustc_info.json	/^{"rustc_fingerprint":13134320078544071847,"outputs":{"17598535894874457435":{"success":true,"sta/;"	b	object:outputs.17598535894874457435
+success	target/.rustc_info.json	/^{"rustc_fingerprint":13134320078544071847,"outputs":{"17598535894874457435":{"success":true,"sta/;"	b	object:outputs.2797684049618456168
+success	target/.rustc_info.json	/^{"rustc_fingerprint":13134320078544071847,"outputs":{"17598535894874457435":{"success":true,"sta/;"	b	object:outputs.931469667778813386
+successes	target/.rustc_info.json	/^{"rustc_fingerprint":13134320078544071847,"outputs":{"17598535894874457435":{"success":true,"sta/;"	o
+target	target/debug/.fingerprint/AoC_2021-1848f3e98b89b3d1/test-bin-AoC_2021.json	/^{"rustc":10077412179023509715,"features":"[]","target":11103553238831657604,"profile":6415348288/;"	n
+target	target/debug/.fingerprint/AoC_2021-18e75480cb722bd1/bin-AoC_2021.json	/^{"rustc":10077412179023509715,"features":"[]","target":11103553238831657604,"profile":1144844575/;"	n
+target	target/debug/.fingerprint/AoC_2021-375d8eb21ee48a46/test-bin-AoC_2021.json	/^{"rustc":10077412179023509715,"features":"[]","target":11103553238831657604,"profile":6415348288/;"	n
+target	target/debug/.fingerprint/AoC_2021-52ef7cbd990ea619/bin-AoC_2021.json	/^{"rustc":10077412179023509715,"features":"[]","target":11103553238831657604,"profile":1144844575/;"	n
+target	target/debug/.fingerprint/AoC_2021-5ed48ffd3d41022b/bin-AoC_2021.json	/^{"rustc":8020860686714880400,"features":"[]","target":9527172775541262777,"profile":730914168686/;"	n
+target	target/debug/.fingerprint/AoC_2021-8cef22a3156f1720/test-bin-AoC_2021.json	/^{"rustc":8020860686714880400,"features":"[]","target":9527172775541262777,"profile":102163307545/;"	n
+target	target/debug/.fingerprint/AoC_2021-c6a7c70b0686ab51/test-bin-AoC_2021.json	/^{"rustc":8020860686714880400,"features":"[]","target":9527172775541262777,"profile":102163307545/;"	n
+target	target/debug/.fingerprint/AoC_2021-d02448b26699337a/bin-AoC_2021.json	/^{"rustc":8020860686714880400,"features":"[]","target":9527172775541262777,"profile":730914168686/;"	n
+target	target/debug/.fingerprint/advent_2021-1a51593105351809/bin-advent_2021.json	/^{"rustc":10026429466883849012,"features":"[]","target":5242205794972051748,"profile":18108590124/;"	n
+target	target/debug/.fingerprint/advent_2021-1acb23e191f65a9f/bin-advent_2021.json	/^{"rustc":7409016768189200941,"features":"[]","target":3582900816897624388,"profile":925101365624/;"	n
+target	target/debug/.fingerprint/advent_2021-34f7fd87a4480260/bin-advent_2021.json	/^{"rustc":8020860686714880400,"features":"[]","target":3582900816897624388,"profile":925101365624/;"	n
+target	target/debug/.fingerprint/advent_2021-3e8de721471dd047/bin-advent_2021.json	/^{"rustc":10026429466883849012,"features":"[]","target":9241109471690605214,"profile":11448445750/;"	n
+target	target/debug/.fingerprint/advent_2021-627f6773619504d6/bin-advent_2021.json	/^{"rustc":8020860686714880400,"features":"[]","target":14971729297076664852,"profile":73091416868/;"	n
+target	target/debug/.fingerprint/advent_2021-6e49952f92e9d0e6/bin-advent_2021.json	/^{"rustc":7409016768189200941,"features":"[]","target":3582900816897624388,"profile":730914168686/;"	n
+target	target/debug/.fingerprint/advent_2021-9f5090350aba620d/test-bin-advent_2021.json	/^{"rustc":7409016768189200941,"features":"[]","target":3582900816897624388,"profile":102163307545/;"	n
+target	target/debug/.fingerprint/advent_2021-acb9cc02b1c5ecc4/test-bin-advent_2021.json	/^{"rustc":8020860686714880400,"features":"[]","target":14971729297076664852,"profile":10216330754/;"	n
+target	target/debug/.fingerprint/advent_2021-ad577bef711315b0/test-bin-advent_2021.json	/^{"rustc":10026429466883849012,"features":"[]","target":5242205794972051748,"profile":64153482883/;"	n
+target	target/debug/.fingerprint/advent_2021-e1ec49e7d795f65d/test-bin-advent_2021.json	/^{"rustc":7409016768189200941,"features":"[]","target":3582900816897624388,"profile":102163307545/;"	n
+target	target/debug/.fingerprint/advent_2021-e272361c18cf75c5/bin-advent_2021.json	/^{"rustc":10026429466883849012,"features":"[]","target":9241109471690605214,"profile":11448445750/;"	n
+target	target/debug/.fingerprint/advent_2021-e5cc0dacd63239cb/bin-advent_2021.json	/^{"rustc":7409016768189200941,"features":"[]","target":3582900816897624388,"profile":730914168686/;"	n
+target	target/debug/.fingerprint/advent_2021-fc7cda1cecf81d05/test-bin-advent_2021.json	/^{"rustc":10026429466883849012,"features":"[]","target":9241109471690605214,"profile":64153482883/;"	n
+validate_line	src/solutions/solution_10.rs	/^fn validate_line(line: &str) -> LineStatus {$/;"	f
+validate_pair	src/solutions/solution_10.rs	/^fn validate_pair(pair: (char, char)) -> bool {$/;"	f
+values	src/solutions/solution_09.rs	/^    values: Vec<u8>,$/;"	m	struct:Grid
+verticals	src/solutions/solution_05.rs	/^fn verticals(lines: &Vec<Line>) -> Vec<Line> {$/;"	f
+walk_d	src/solutions/solution_05.rs	/^fn walk_d(lines: &Vec<Line>, board: &mut Vec<Vec<u32>>) {$/;"	f
+walk_h	src/solutions/solution_05.rs	/^fn walk_h(lines: &Vec<Line>, board: &mut Vec<Vec<u32>>) {$/;"	f
+walk_v	src/solutions/solution_05.rs	/^fn walk_v(lines: &Vec<Line>, board: &mut Vec<Vec<u32>>) {$/;"	f
+width	src/solutions/solution_09.rs	/^    width: i32,$/;"	m	struct:Grid
+wins	src/solutions/solution_04.rs	/^fn wins(board: &Vec<Vec<&str>>) -> bool {$/;"	f
+x	src/solutions/solution_09.rs	/^    x: i32,$/;"	m	struct:Point
+x	src/solutions/solution_11.rs	/^    x: i8,$/;"	m	struct:Octopus
+x1	src/solutions/solution_05.rs	/^    x1: u32,$/;"	m	struct:Line
+x2	src/solutions/solution_05.rs	/^    x2: u32,$/;"	m	struct:Line
+y	src/solutions/solution_09.rs	/^    y: i32,$/;"	m	struct:Point
+y	src/solutions/solution_11.rs	/^    y: i8,$/;"	m	struct:Octopus
+y1	src/solutions/solution_05.rs	/^    y1: u32,$/;"	m	struct:Line
+y2	src/solutions/solution_05.rs	/^    y2: u32,$/;"	m	struct:Line
