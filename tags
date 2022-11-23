@@ -30,10 +30,10 @@
 0	target/debug/.fingerprint/advent_2021-e272361c18cf75c5/bin-advent_2021.json	/^{"rustc":10026429466883849012,"features":"[]","target":9241109471690605214,"profile":11448445750/;"	o	array:local
 0	target/debug/.fingerprint/advent_2021-e5cc0dacd63239cb/bin-advent_2021.json	/^{"rustc":7409016768189200941,"features":"[]","target":3582900816897624388,"profile":730914168686/;"	o	array:local
 0	target/debug/.fingerprint/advent_2021-fc7cda1cecf81d05/test-bin-advent_2021.json	/^{"rustc":10026429466883849012,"features":"[]","target":9241109471690605214,"profile":64153482883/;"	o	array:local
-15537503139010883884	target/.rustc_info.json	/^{"rustc_fingerprint":13134320078544071847,"outputs":{"17598535894874457435":{"success":true,"sta/;"	o	object:outputs
-17598535894874457435	target/.rustc_info.json	/^{"rustc_fingerprint":13134320078544071847,"outputs":{"17598535894874457435":{"success":true,"sta/;"	o	object:outputs
-2797684049618456168	target/.rustc_info.json	/^{"rustc_fingerprint":13134320078544071847,"outputs":{"17598535894874457435":{"success":true,"sta/;"	o	object:outputs
-931469667778813386	target/.rustc_info.json	/^{"rustc_fingerprint":13134320078544071847,"outputs":{"17598535894874457435":{"success":true,"sta/;"	o	object:outputs
+10913908906605446257	target/.rustc_info.json	/^{"rustc_fingerprint":16770455821440381487,"outputs":{"5912810005807744388":{"success":false,"sta/;"	o	object:outputs
+17598535894874457435	target/.rustc_info.json	/^{"rustc_fingerprint":16770455821440381487,"outputs":{"5912810005807744388":{"success":false,"sta/;"	o	object:outputs
+3376809586958156926	target/.rustc_info.json	/^{"rustc_fingerprint":16770455821440381487,"outputs":{"5912810005807744388":{"success":false,"sta/;"	o	object:outputs
+5912810005807744388	target/.rustc_info.json	/^{"rustc_fingerprint":16770455821440381487,"outputs":{"5912810005807744388":{"success":false,"sta/;"	o	object:outputs
 Big	src/solutions/solution_12.rs	/^    Big,$/;"	e	enum:Size
 Board	src/solutions/solution_04.rs	/^type Board<'a> = Vec<Vec<&'a str>>;$/;"	t
 Boards	src/solutions/solution_04.rs	/^type Boards<'a> = Vec<Board<'a>>;$/;"	t
@@ -76,12 +76,17 @@ LineStatus	src/solutions/solution_10.rs	/^enum LineStatus {$/;"	g
 Multiple	src/solutions/solution_12.rs	/^    Multiple,$/;"	e	enum:PathRule
 Network	src/solutions/solution_12.rs	/^impl<'a> Network<'a> {$/;"	c
 Network	src/solutions/solution_12.rs	/^struct Network<'a> {$/;"	s
+Node	src/solutions/solution_14.rs	/^impl Node<'_> {$/;"	c
+Node	src/solutions/solution_14.rs	/^struct Node<'a> {$/;"	s
 Nums	src/solutions/solution_04.rs	/^type Nums<'a> = Vec<&'a str>;$/;"	t
 Octopus	src/solutions/solution_11.rs	/^struct Octopus {$/;"	s
 Paper	src/solutions/solution_13.rs	/^impl Paper {$/;"	c
 Paper	src/solutions/solution_13.rs	/^struct Paper {$/;"	s
 PathRule	src/solutions/solution_12.rs	/^enum PathRule {$/;"	g
 Point	src/solutions/solution_09.rs	/^struct Point {$/;"	s
+Polymer	src/solutions/solution_14.rs	/^impl<'a> Polymer<'a> {$/;"	c
+Polymer	src/solutions/solution_14.rs	/^struct Polymer<'a> {$/;"	s
+Rule	src/solutions/solution_14.rs	/^type Rule<'a> = (&'a str, &'a str);$/;"	t
 Single	src/solutions/solution_12.rs	/^    Single,$/;"	e	enum:PathRule
 Size	src/solutions/solution_12.rs	/^enum Size {$/;"	g
 Small	src/solutions/solution_12.rs	/^    Small,$/;"	e	enum:Size
@@ -100,7 +105,9 @@ a	src/solutions/solution_10.rs	/^pub fn a(input: &str) {$/;"	f
 a	src/solutions/solution_11.rs	/^pub fn a(input: &str) {$/;"	f
 a	src/solutions/solution_12.rs	/^pub fn a(input: &str) {$/;"	f
 a	src/solutions/solution_13.rs	/^pub fn a(input: &str) {$/;"	f
+a	src/solutions/solution_14.rs	/^pub fn a(input: &str) {$/;"	f
 add_or_get	src/solutions/solution_12.rs	/^    fn add_or_get(&mut self, name: &'a str) -> usize {$/;"	P	implementation:Network
+analyze	src/solutions/solution_14.rs	/^fn analyze(polymer: &str) -> u32 {$/;"	f
 at	src/solutions/solution_09.rs	/^    fn at(&self, point: Point) -> Option<u8> {$/;"	P	implementation:Grid
 at	src/solutions/solution_11.rs	/^    fn at(&self, point: Octopus) -> Option<u8> {$/;"	P	implementation:Grid
 b	src/solutions/solution_01.rs	/^pub fn b(lines: std::str::Lines<'_>) {$/;"	f
@@ -116,12 +123,14 @@ b	src/solutions/solution_10.rs	/^pub fn b(input: &str) {$/;"	f
 b	src/solutions/solution_11.rs	/^pub fn b(input: &str) {$/;"	f
 b	src/solutions/solution_12.rs	/^pub fn b(input: &str) {$/;"	f
 b	src/solutions/solution_13.rs	/^pub fn b(input: &str) {$/;"	f
+b	src/solutions/solution_14.rs	/^pub fn b(input: &str) {$/;"	f
 bassin	src/solutions/solution_09.rs	/^fn bassin(grid: &Grid, point: Point) -> Vec<Point> {$/;"	f
 caves	src/solutions/solution_12.rs	/^    caves: Vec<Cave>,$/;"	m	struct:Network
-code	target/.rustc_info.json	/^{"rustc_fingerprint":13134320078544071847,"outputs":{"17598535894874457435":{"success":true,"sta/;"	n	object:outputs.15537503139010883884
-code	target/.rustc_info.json	/^{"rustc_fingerprint":13134320078544071847,"outputs":{"17598535894874457435":{"success":true,"sta/;"	n	object:outputs.17598535894874457435
-code	target/.rustc_info.json	/^{"rustc_fingerprint":13134320078544071847,"outputs":{"17598535894874457435":{"success":true,"sta/;"	n	object:outputs.2797684049618456168
-code	target/.rustc_info.json	/^{"rustc_fingerprint":13134320078544071847,"outputs":{"17598535894874457435":{"success":true,"sta/;"	n	object:outputs.931469667778813386
+children	src/solutions/solution_14.rs	/^    children: [Option<&'a Node<'a>>; 2],$/;"	m	struct:Node
+code	target/.rustc_info.json	/^{"rustc_fingerprint":16770455821440381487,"outputs":{"5912810005807744388":{"success":false,"sta/;"	n	object:outputs.10913908906605446257
+code	target/.rustc_info.json	/^{"rustc_fingerprint":16770455821440381487,"outputs":{"5912810005807744388":{"success":false,"sta/;"	n	object:outputs.17598535894874457435
+code	target/.rustc_info.json	/^{"rustc_fingerprint":16770455821440381487,"outputs":{"5912810005807744388":{"success":false,"sta/;"	n	object:outputs.3376809586958156926
+code	target/.rustc_info.json	/^{"rustc_fingerprint":16770455821440381487,"outputs":{"5912810005807744388":{"success":false,"sta/;"	n	object:outputs.5912810005807744388
 compile_kind	target/debug/.fingerprint/AoC_2021-1848f3e98b89b3d1/test-bin-AoC_2021.json	/^{"rustc":10077412179023509715,"features":"[]","target":11103553238831657604,"profile":6415348288/;"	n
 compile_kind	target/debug/.fingerprint/AoC_2021-18e75480cb722bd1/bin-AoC_2021.json	/^{"rustc":10077412179023509715,"features":"[]","target":11103553238831657604,"profile":1144844575/;"	n
 compile_kind	target/debug/.fingerprint/AoC_2021-375d8eb21ee48a46/test-bin-AoC_2021.json	/^{"rustc":10077412179023509715,"features":"[]","target":11103553238831657604,"profile":6415348288/;"	n
@@ -245,6 +254,7 @@ height	src/solutions/solution_13.rs	/^    height: u32,$/;"	m	struct:Paper
 horizontals	src/solutions/solution_05.rs	/^fn horizontals(lines: &Vec<Line>) -> Vec<Line> {$/;"	f
 index_map	src/solutions/solution_12.rs	/^    index_map: HashMap<&'a str, usize>,$/;"	m	struct:Network
 input	src/main.rs	/^pub mod input {$/;"	n
+join_trees	src/solutions/solution_14.rs	/^    fn join_trees(&self, trees: &[Node], depth: u32) -> String {$/;"	P	implementation:Polymer
 levels	src/solutions/solution_11.rs	/^    levels: Levels,$/;"	m	struct:Grid
 local	target/debug/.fingerprint/AoC_2021-1848f3e98b89b3d1/test-bin-AoC_2021.json	/^{"rustc":10077412179023509715,"features":"[]","target":11103553238831657604,"profile":6415348288/;"	a
 local	target/debug/.fingerprint/AoC_2021-18e75480cb722bd1/bin-AoC_2021.json	/^{"rustc":10077412179023509715,"features":"[]","target":11103553238831657604,"profile":1144844575/;"	a
@@ -270,6 +280,8 @@ local	target/debug/.fingerprint/advent_2021-fc7cda1cecf81d05/test-bin-advent_202
 main	src/main.rs	/^fn main() {$/;"	f
 make_boards	src/solutions/solution_04.rs	/^fn make_boards(lines: input::InputLines) -> (Boards, Nums) {$/;"	f
 make_grid	src/solutions/solution_05.rs	/^fn make_grid(lines: &Vec<Line>) -> Vec<Vec<u32>> {$/;"	f
+make_rule_map	src/solutions/solution_14.rs	/^fn make_rule_map<'a>(rules: HashMap<&'a str, &'a str>) -> HashMap<&'a str, Node<'a>> {$/;"	f
+make_trees	src/solutions/solution_14.rs	/^    fn make_trees(&self, depth: u32) -> String {$/;"	P	implementation:Polymer
 metadata	target/debug/.fingerprint/AoC_2021-1848f3e98b89b3d1/test-bin-AoC_2021.json	/^{"rustc":10077412179023509715,"features":"[]","target":11103553238831657604,"profile":6415348288/;"	n
 metadata	target/debug/.fingerprint/AoC_2021-18e75480cb722bd1/bin-AoC_2021.json	/^{"rustc":10077412179023509715,"features":"[]","target":11103553238831657604,"profile":1144844575/;"	n
 metadata	target/debug/.fingerprint/AoC_2021-375d8eb21ee48a46/test-bin-AoC_2021.json	/^{"rustc":10077412179023509715,"features":"[]","target":11103553238831657604,"profile":6415348288/;"	n
@@ -297,7 +309,9 @@ neighbors	src/solutions/solution_09.rs	/^fn neighbors(grid: &Grid, point: Point)
 neighbors	src/solutions/solution_11.rs	/^fn neighbors(grid: &Grid, point: Octopus) -> Vec<(Octopus, u8)> {$/;"	f
 new	src/solutions/solution_12.rs	/^    fn new() -> Network<'a> {$/;"	P	implementation:Network
 new	src/solutions/solution_12.rs	/^    fn new(name: &str) -> Cave {$/;"	P	implementation:Cave
-outputs	target/.rustc_info.json	/^{"rustc_fingerprint":13134320078544071847,"outputs":{"17598535894874457435":{"success":true,"sta/;"	o
+new	src/solutions/solution_14.rs	/^    fn new() -> Self {$/;"	P	implementation:Node
+new	src/solutions/solution_14.rs	/^    fn new(t: &str, r: &'a str) -> Self {$/;"	P	implementation:Polymer
+outputs	target/.rustc_info.json	/^{"rustc_fingerprint":16770455821440381487,"outputs":{"5912810005807744388":{"success":false,"sta/;"	o
 parse_gamma	src/solutions/solution_03.rs	/^fn parse_gamma(lines: input::InputLines) -> String {$/;"	f
 parse_grid	src/solutions/solution_09.rs	/^fn parse_grid(input: &str) -> Grid {$/;"	f
 parse_input	src/solutions/solution_05.rs	/^fn parse_input(lines: input::InputLines) -> Vec<Line> {$/;"	f
@@ -352,6 +366,9 @@ profile	target/debug/.fingerprint/advent_2021-e1ec49e7d795f65d/test-bin-advent_2
 profile	target/debug/.fingerprint/advent_2021-e272361c18cf75c5/bin-advent_2021.json	/^{"rustc":10026429466883849012,"features":"[]","target":9241109471690605214,"profile":11448445750/;"	n
 profile	target/debug/.fingerprint/advent_2021-e5cc0dacd63239cb/bin-advent_2021.json	/^{"rustc":7409016768189200941,"features":"[]","target":3582900816897624388,"profile":730914168686/;"	n
 profile	target/debug/.fingerprint/advent_2021-fc7cda1cecf81d05/test-bin-advent_2021.json	/^{"rustc":10026429466883849012,"features":"[]","target":9241109471690605214,"profile":64153482883/;"	n
+react	src/solutions/solution_14.rs	/^    fn react(&self, depth: u32) -> String {$/;"	P	implementation:Polymer
+rule_map	src/solutions/solution_14.rs	/^    rule_map: HashMap<&'a str, Node<'a>>,$/;"	m	struct:Polymer
+rule_to_node	src/solutions/solution_14.rs	/^fn rule_to_node((pattern, element): Rule) -> Node {$/;"	f
 rustc	target/debug/.fingerprint/AoC_2021-1848f3e98b89b3d1/test-bin-AoC_2021.json	/^{"rustc":10077412179023509715,"features":"[]","target":11103553238831657604,"profile":6415348288/;"	n
 rustc	target/debug/.fingerprint/AoC_2021-18e75480cb722bd1/bin-AoC_2021.json	/^{"rustc":10077412179023509715,"features":"[]","target":11103553238831657604,"profile":1144844575/;"	n
 rustc	target/debug/.fingerprint/AoC_2021-375d8eb21ee48a46/test-bin-AoC_2021.json	/^{"rustc":10077412179023509715,"features":"[]","target":11103553238831657604,"profile":6415348288/;"	n
@@ -373,7 +390,7 @@ rustc	target/debug/.fingerprint/advent_2021-e1ec49e7d795f65d/test-bin-advent_202
 rustc	target/debug/.fingerprint/advent_2021-e272361c18cf75c5/bin-advent_2021.json	/^{"rustc":10026429466883849012,"features":"[]","target":9241109471690605214,"profile":11448445750/;"	n
 rustc	target/debug/.fingerprint/advent_2021-e5cc0dacd63239cb/bin-advent_2021.json	/^{"rustc":7409016768189200941,"features":"[]","target":3582900816897624388,"profile":730914168686/;"	n
 rustc	target/debug/.fingerprint/advent_2021-fc7cda1cecf81d05/test-bin-advent_2021.json	/^{"rustc":10026429466883849012,"features":"[]","target":9241109471690605214,"profile":64153482883/;"	n
-rustc_fingerprint	target/.rustc_info.json	/^{"rustc_fingerprint":13134320078544071847,"outputs":{"17598535894874457435":{"success":true,"sta/;"	n
+rustc_fingerprint	target/.rustc_info.json	/^{"rustc_fingerprint":16770455821440381487,"outputs":{"5912810005807744388":{"success":false,"sta/;"	n
 rustflags	target/debug/.fingerprint/AoC_2021-1848f3e98b89b3d1/test-bin-AoC_2021.json	/^{"rustc":10077412179023509715,"features":"[]","target":11103553238831657604,"profile":6415348288/;"	a
 rustflags	target/debug/.fingerprint/AoC_2021-18e75480cb722bd1/bin-AoC_2021.json	/^{"rustc":10077412179023509715,"features":"[]","target":11103553238831657604,"profile":1144844575/;"	a
 rustflags	target/debug/.fingerprint/AoC_2021-375d8eb21ee48a46/test-bin-AoC_2021.json	/^{"rustc":10077412179023509715,"features":"[]","target":11103553238831657604,"profile":6415348288/;"	a
@@ -412,26 +429,28 @@ solution_10	src/solutions/mod.rs	/^pub mod solution_10;$/;"	n
 solution_11	src/solutions/mod.rs	/^pub mod solution_11;$/;"	n
 solution_12	src/solutions/mod.rs	/^pub mod solution_12;$/;"	n
 solution_13	src/solutions/mod.rs	/^pub mod solution_13;$/;"	n
+solution_14	src/solutions/mod.rs	/^pub mod solution_14;$/;"	n
 solutions	src/main.rs	/^mod solutions;$/;"	n
-status	target/.rustc_info.json	/^{"rustc_fingerprint":13134320078544071847,"outputs":{"17598535894874457435":{"success":true,"sta/;"	s	object:outputs.15537503139010883884
-status	target/.rustc_info.json	/^{"rustc_fingerprint":13134320078544071847,"outputs":{"17598535894874457435":{"success":true,"sta/;"	s	object:outputs.17598535894874457435
-status	target/.rustc_info.json	/^{"rustc_fingerprint":13134320078544071847,"outputs":{"17598535894874457435":{"success":true,"sta/;"	s	object:outputs.2797684049618456168
-status	target/.rustc_info.json	/^{"rustc_fingerprint":13134320078544071847,"outputs":{"17598535894874457435":{"success":true,"sta/;"	s	object:outputs.931469667778813386
-stderr	target/.rustc_info.json	/^{"rustc_fingerprint":13134320078544071847,"outputs":{"17598535894874457435":{"success":true,"sta/;"	s	object:outputs.15537503139010883884
-stderr	target/.rustc_info.json	/^{"rustc_fingerprint":13134320078544071847,"outputs":{"17598535894874457435":{"success":true,"sta/;"	s	object:outputs.17598535894874457435
-stderr	target/.rustc_info.json	/^{"rustc_fingerprint":13134320078544071847,"outputs":{"17598535894874457435":{"success":true,"sta/;"	s	object:outputs.2797684049618456168
-stderr	target/.rustc_info.json	/^{"rustc_fingerprint":13134320078544071847,"outputs":{"17598535894874457435":{"success":true,"sta/;"	s	object:outputs.931469667778813386
-stdout	target/.rustc_info.json	/^{"rustc_fingerprint":13134320078544071847,"outputs":{"17598535894874457435":{"success":true,"sta/;"	s	object:outputs.15537503139010883884
-stdout	target/.rustc_info.json	/^{"rustc_fingerprint":13134320078544071847,"outputs":{"17598535894874457435":{"success":true,"sta/;"	s	object:outputs.17598535894874457435
-stdout	target/.rustc_info.json	/^{"rustc_fingerprint":13134320078544071847,"outputs":{"17598535894874457435":{"success":true,"sta/;"	s	object:outputs.2797684049618456168
-stdout	target/.rustc_info.json	/^{"rustc_fingerprint":13134320078544071847,"outputs":{"17598535894874457435":{"success":true,"sta/;"	s	object:outputs.931469667778813386
+solve	src/solutions/solution_14.rs	/^fn solve(input: &str, n: u32) {$/;"	f
+status	target/.rustc_info.json	/^{"rustc_fingerprint":16770455821440381487,"outputs":{"5912810005807744388":{"success":false,"sta/;"	s	object:outputs.10913908906605446257
+status	target/.rustc_info.json	/^{"rustc_fingerprint":16770455821440381487,"outputs":{"5912810005807744388":{"success":false,"sta/;"	s	object:outputs.17598535894874457435
+status	target/.rustc_info.json	/^{"rustc_fingerprint":16770455821440381487,"outputs":{"5912810005807744388":{"success":false,"sta/;"	s	object:outputs.3376809586958156926
+status	target/.rustc_info.json	/^{"rustc_fingerprint":16770455821440381487,"outputs":{"5912810005807744388":{"success":false,"sta/;"	s	object:outputs.5912810005807744388
+stderr	target/.rustc_info.json	/^{"rustc_fingerprint":16770455821440381487,"outputs":{"5912810005807744388":{"success":false,"sta/;"	s	object:outputs.10913908906605446257
+stderr	target/.rustc_info.json	/^{"rustc_fingerprint":16770455821440381487,"outputs":{"5912810005807744388":{"success":false,"sta/;"	s	object:outputs.17598535894874457435
+stderr	target/.rustc_info.json	/^{"rustc_fingerprint":16770455821440381487,"outputs":{"5912810005807744388":{"success":false,"sta/;"	s	object:outputs.3376809586958156926
+stderr	target/.rustc_info.json	/^{"rustc_fingerprint":16770455821440381487,"outputs":{"5912810005807744388":{"success":false,"sta/;"	s	object:outputs.5912810005807744388
+stdout	target/.rustc_info.json	/^{"rustc_fingerprint":16770455821440381487,"outputs":{"5912810005807744388":{"success":false,"sta/;"	s	object:outputs.10913908906605446257
+stdout	target/.rustc_info.json	/^{"rustc_fingerprint":16770455821440381487,"outputs":{"5912810005807744388":{"success":false,"sta/;"	s	object:outputs.17598535894874457435
+stdout	target/.rustc_info.json	/^{"rustc_fingerprint":16770455821440381487,"outputs":{"5912810005807744388":{"success":false,"sta/;"	s	object:outputs.3376809586958156926
+stdout	target/.rustc_info.json	/^{"rustc_fingerprint":16770455821440381487,"outputs":{"5912810005807744388":{"success":false,"sta/;"	s	object:outputs.5912810005807744388
 step	src/solutions/solution_11.rs	/^    fn step(self, counter: &mut u32) -> Grid {$/;"	P	implementation:Grid
 step_til_simulatneous	src/solutions/solution_11.rs	/^fn step_til_simulatneous(grid: &mut Grid, counter: &mut u32) {$/;"	f
-success	target/.rustc_info.json	/^{"rustc_fingerprint":13134320078544071847,"outputs":{"17598535894874457435":{"success":true,"sta/;"	b	object:outputs.15537503139010883884
-success	target/.rustc_info.json	/^{"rustc_fingerprint":13134320078544071847,"outputs":{"17598535894874457435":{"success":true,"sta/;"	b	object:outputs.17598535894874457435
-success	target/.rustc_info.json	/^{"rustc_fingerprint":13134320078544071847,"outputs":{"17598535894874457435":{"success":true,"sta/;"	b	object:outputs.2797684049618456168
-success	target/.rustc_info.json	/^{"rustc_fingerprint":13134320078544071847,"outputs":{"17598535894874457435":{"success":true,"sta/;"	b	object:outputs.931469667778813386
-successes	target/.rustc_info.json	/^{"rustc_fingerprint":13134320078544071847,"outputs":{"17598535894874457435":{"success":true,"sta/;"	o
+success	target/.rustc_info.json	/^{"rustc_fingerprint":16770455821440381487,"outputs":{"5912810005807744388":{"success":false,"sta/;"	b	object:outputs.10913908906605446257
+success	target/.rustc_info.json	/^{"rustc_fingerprint":16770455821440381487,"outputs":{"5912810005807744388":{"success":false,"sta/;"	b	object:outputs.17598535894874457435
+success	target/.rustc_info.json	/^{"rustc_fingerprint":16770455821440381487,"outputs":{"5912810005807744388":{"success":false,"sta/;"	b	object:outputs.3376809586958156926
+success	target/.rustc_info.json	/^{"rustc_fingerprint":16770455821440381487,"outputs":{"5912810005807744388":{"success":false,"sta/;"	b	object:outputs.5912810005807744388
+successes	target/.rustc_info.json	/^{"rustc_fingerprint":16770455821440381487,"outputs":{"5912810005807744388":{"success":false,"sta/;"	o
 target	target/debug/.fingerprint/AoC_2021-1848f3e98b89b3d1/test-bin-AoC_2021.json	/^{"rustc":10077412179023509715,"features":"[]","target":11103553238831657604,"profile":6415348288/;"	n
 target	target/debug/.fingerprint/AoC_2021-18e75480cb722bd1/bin-AoC_2021.json	/^{"rustc":10077412179023509715,"features":"[]","target":11103553238831657604,"profile":1144844575/;"	n
 target	target/debug/.fingerprint/AoC_2021-375d8eb21ee48a46/test-bin-AoC_2021.json	/^{"rustc":10077412179023509715,"features":"[]","target":11103553238831657604,"profile":6415348288/;"	n
@@ -453,9 +472,13 @@ target	target/debug/.fingerprint/advent_2021-e1ec49e7d795f65d/test-bin-advent_20
 target	target/debug/.fingerprint/advent_2021-e272361c18cf75c5/bin-advent_2021.json	/^{"rustc":10026429466883849012,"features":"[]","target":9241109471690605214,"profile":11448445750/;"	n
 target	target/debug/.fingerprint/advent_2021-e5cc0dacd63239cb/bin-advent_2021.json	/^{"rustc":7409016768189200941,"features":"[]","target":3582900816897624388,"profile":730914168686/;"	n
 target	target/debug/.fingerprint/advent_2021-fc7cda1cecf81d05/test-bin-advent_2021.json	/^{"rustc":10026429466883849012,"features":"[]","target":9241109471690605214,"profile":64153482883/;"	n
+template	src/solutions/solution_14.rs	/^    template: String,$/;"	m	struct:Polymer
+traverse_r	src/solutions/solution_14.rs	/^    fn traverse_r(&self, string: &str, depth: u32) -> String {$/;"	P	implementation:Node
+tree	src/solutions/solution_14.rs	/^    fn tree(&self, value: &'a str) -> Node {$/;"	P	implementation:Polymer
 unique	src/solutions/solution_13.rs	/^    fn unique(&self, v: (u32, u32)) -> Option<(u32, u32)> {$/;"	P	implementation:Paper
 validate_line	src/solutions/solution_10.rs	/^fn validate_line(line: &str) -> LineStatus {$/;"	f
 validate_pair	src/solutions/solution_10.rs	/^fn validate_pair(pair: (char, char)) -> bool {$/;"	f
+value	src/solutions/solution_14.rs	/^    value: &'a str,$/;"	m	struct:Node
 values	src/solutions/solution_09.rs	/^    values: Vec<u8>,$/;"	m	struct:Grid
 values	src/solutions/solution_13.rs	/^    values: Vec<(u32, u32)>,$/;"	m	struct:Paper
 verticals	src/solutions/solution_05.rs	/^fn verticals(lines: &Vec<Line>) -> Vec<Line> {$/;"	f

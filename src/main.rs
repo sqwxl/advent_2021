@@ -1,3 +1,4 @@
+#![allow(dead_code, unused)]
 use std::fs;
 
 mod solutions;
@@ -45,6 +46,30 @@ fn main() {
         "inputs/12B" => solutions::solution_12::b(&input),
         "inputs/13A" => solutions::solution_13::a(&input),
         "inputs/13B" => solutions::solution_13::b(&input),
+        "inputs/14A" => solutions::solution_14::a(&input),
+        "inputs/14B" => solutions::solution_14::b(&input),
+        "inputs/15A" => solutions::solution_15::a(&input),
+        "inputs/15B" => solutions::solution_15::b(&input),
+        "inputs/16A" => solutions::solution_16::a(&input),
+        "inputs/16B" => solutions::solution_16::b(&input),
+        // "inputs/17A" => solutions::solution_17::a(&input),
+        // "inputs/17B" => solutions::solution_17::b(&input),
+        // "inputs/18A" => solutions::solution_18::a(&input),
+        // "inputs/18B" => solutions::solution_18::b(&input),
+        // "inputs/19A" => solutions::solution_19::a(&input),
+        // "inputs/19B" => solutions::solution_19::b(&input),
+        // "inputs/20A" => solutions::solution_20::a(&input),
+        // "inputs/20B" => solutions::solution_20::b(&input),
+        // "inputs/21A" => solutions::solution_21::a(&input),
+        // "inputs/21B" => solutions::solution_21::b(&input),
+        // "inputs/22A" => solutions::solution_22::a(&input),
+        // "inputs/22B" => solutions::solution_22::b(&input),
+        // "inputs/23A" => solutions::solution_23::a(&input),
+        // "inputs/23B" => solutions::solution_23::b(&input),
+        // "inputs/24A" => solutions::solution_24::a(&input),
+        // "inputs/24B" => solutions::solution_24::b(&input),
+        // "inputs/25A" => solutions::solution_25::a(&input),
+        // "inputs/25B" => solutions::solution_25::b(&input),
         _ => println!("input not recognized. use 'inputs/01A'"),
     }
 }
