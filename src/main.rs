@@ -15,7 +15,7 @@ fn main() {
     let input = fs::read(&file).unwrap();
     let data = String::from_utf8(input).unwrap();
     let lines = data.lines();
-    
+
     let input = fs::read_to_string(file).unwrap();
 
     println!("{}", puzzle);
@@ -52,8 +52,8 @@ fn main() {
         "inputs/15B" => solutions::solution_15::b(&input),
         "inputs/16A" => solutions::solution_16::a(&input),
         "inputs/16B" => solutions::solution_16::b(&input),
-        // "inputs/17A" => solutions::solution_17::a(&input),
-        // "inputs/17B" => solutions::solution_17::b(&input),
+        "inputs/17A" => solutions::solution_17::a(&input),
+        "inputs/17B" => solutions::solution_17::b(&input),
         // "inputs/18A" => solutions::solution_18::a(&input),
         // "inputs/18B" => solutions::solution_18::b(&input),
         // "inputs/19A" => solutions::solution_19::a(&input),

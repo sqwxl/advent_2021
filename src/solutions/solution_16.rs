@@ -1,10 +1,16 @@
+use std::cmp::{max, min, Ordering};
+
 pub fn a(input: &str) {
-    let mut binary_string  = make_binary_string(input);
+    let mut binary_string = make_binary_string(input);
     let packet = parse(&mut binary_string);
-    println!("{}", packet.version_sum()); 
+    println!("{}", packet.version_sum());
 }
 
-pub fn b(input: &str) {}
+pub fn b(input: &str) {
+    let mut binary_string = make_binary_string(input);
+    let packet = parse(&mut binary_string);
+    println!("{}", packet.eval());
+}
 
 enum Packet {
     Literal {
@@ -16,19 +22,67 @@ enum Packet {
         id: usize,
         length_type_id: usize,
         sub_packets: Vec<Packet>,
-    }
+    },
 }
 
 impl Packet {
     fn version_sum(&self) -> usize {
         match self {
             Packet::Literal { version, .. } => *version,
-            Packet::Operator { version, sub_packets, .. } =>  *version + sub_packets.iter().map(|p| p.version_sum()).sum::<usize>()}
+            Packet::Operator {
+                version,
+                sub_packets,
+                ..
+            } => *version + sub_packets.iter().map(|p| p.version_sum()).sum::<usize>(),
+        }
+    }
+
+    fn eval(&self) -> usize {
+        match self {
+            Packet::Literal { value, .. } => *value,
+            Packet::Operator {
+                id, sub_packets, ..
+            } => match *id {
+                0 => sub_packets.iter().map(|p| p.eval()).sum::<usize>(),
+                1 => sub_packets.iter().map(|p| p.eval()).product::<usize>(),
+                2 => sub_packets.iter().map(|p| p.eval()).min().unwrap(),
+                3 => sub_packets.iter().map(|p| p.eval()).max().unwrap(),
+                5 | 6 | 7 => {
+                    let a = sub_packets[0].eval();
+                    let b = sub_packets[1].eval();
+                    match a.cmp(&b) {
+                        Ordering::Greater => {
+                            if *id == 5 {
+                                1
+                            } else {
+                                0
+                            }
+                        }
+                        Ordering::Less => {
+                            if *id == 6 {
+                                1
+                            } else {
+                                0
+                            }
+                        }
+                        Ordering::Equal => {
+                            if *id == 7 {
+                                1
+                            } else {
+                                0
+                            }
+                        }
+                    }
+                }
+                _ => unreachable!(),
+            },
+        }
     }
 }
 
 fn make_binary_string(input: &str) -> Vec<u8> {
-    input.trim_end()
+    input
+        .trim_end()
         .chars()
         .flat_map(|c| hex_to_bin(&c).bytes().map(|b| b - b'0').collect::<Vec<_>>())
         .collect()
@@ -48,7 +102,7 @@ fn parse(packet: &mut Vec<u8>) -> Packet {
                 value = (value << 4) + (x & 0b1111);
             }
             Packet::Literal { version, value }
-        },
+        }
         id => {
             // Operator packet
             let length_type_id = consume_bits(packet, 1);
@@ -63,7 +117,7 @@ fn parse(packet: &mut Vec<u8>) -> Packet {
                         sub_packets.push(parse(&mut packet_bits));
                     }
                     sub_packets
-                },
+                }
                 1 => {
                     // next 11 bits represent the number of sub-packets contained within
                     let n = consume_bits(packet, 11);
@@ -72,11 +126,16 @@ fn parse(packet: &mut Vec<u8>) -> Packet {
                         sub_packets.push(parse(packet));
                     }
                     sub_packets
-                },
+                }
                 _ => unreachable!(),
             };
-            Packet::Operator { version, id, length_type_id, sub_packets }
-        },
+            Packet::Operator {
+                version,
+                id,
+                length_type_id,
+                sub_packets,
+            }
+        }
     }
 }
 
@@ -87,7 +146,7 @@ fn consume_bits(bits: &mut Vec<u8>, n: usize) -> usize {
         // x = ...0110 and b = 1
         // x<<1 => ...1100
         // 1100 | 1 = 1101
-        x = (x<<1) | b as usize;
+        x = (x << 1) | b as usize;
     }
     x
 }
@@ -113,6 +172,3 @@ fn hex_to_bin(c: &char) -> &str {
         _ => unreachable!(),
     }
 }
-
-
-
